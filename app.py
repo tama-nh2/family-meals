@@ -316,6 +316,27 @@ with tab1:
             st.rerun()
 
     plan = st.session_state.weekly_plan
+
+    # --- リセットボタン ---
+    if st.button("🗑️ 今週の献立をリセット", key="reset_weekly_plan"):
+        st.session_state["confirm_reset_plan"] = True
+
+    if st.session_state.get("confirm_reset_plan", False):
+        st.warning("本当にリセットしますか？選択中のレシピが全て削除されます。")
+        col_yes, col_no = st.columns(2)
+        with col_yes:
+            if st.button("✅ リセットする", key="reset_plan_yes"):
+                for key in ["main", "side", "soup", "pressure"]:
+                    st.session_state.weekly_plan["selected_recipes"][key] = []
+                save_plan()
+                st.session_state.pop("confirm_reset_plan", None)
+                st.success("献立がリセットされました。")
+                st.rerun()
+        with col_no:
+            if st.button("キャンセル", key="reset_plan_no"):
+                st.session_state.pop("confirm_reset_plan", None)
+                st.rerun()
+
     render_recipe_slots("main", plan["settings"]["main_count"])
     render_recipe_slots("side", plan["settings"]["side_count"])
     if plan["settings"]["soup_count"] > 0:
