@@ -1,0 +1,15 @@
+__pycache__/
+*.pyc
+*.pyo
+.env
+.venv/
+venv/
+*.egg-info/
+dist/
+build/
+.DS_Store
+.claude/
+
+# ローカルデータ（Streamlit Cloud にはアップしない）
+data/daily_log.json
+data/shopping_list.json

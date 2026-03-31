@@ -1,0 +1,26 @@
+{
+  "settings": {
+    "main_count": 5,
+    "side_count": 5,
+    "soup_count": 1,
+    "pressure_count": 0
+  },
+  "selected_recipes": {
+    "main": [
+      "recipe_004",
+      "recipe_006",
+      "recipe_003",
+      "recipe_001"
+    ],
+    "side": [
+      "recipe_011",
+      "recipe_008",
+      "recipe_007",
+      "recipe_009"
+    ],
+    "soup": [
+      "recipe_015"
+    ],
+    "pressure": []
+  }
+}

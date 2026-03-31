@@ -1,0 +1,1702 @@
+[
+  {
+    "id": "recipe_001",
+    "name": "鶏の照り焼き",
+    "category": "主菜",
+    "cooker": "normal",
+    "servings": 3,
+    "batch_servings": 10,
+    "serving_size_adult_g": 80,
+    "serving_size_child_g": 40,
+    "prep_time_min": 10,
+    "cook_time_min": 20,
+    "storage_days": 4,
+    "ingredients": [
+      {
+        "name": "鶏もも肉",
+        "amount": 450,
+        "unit": "g",
+        "category": "肉類"
+      },
+      {
+        "name": "醤油",
+        "amount": 3,
+        "unit": "大さじ",
+        "category": "調味料"
+      },
+      {
+        "name": "みりん",
+        "amount": 3,
+        "unit": "大さじ",
+        "category": "調味料"
+      },
+      {
+        "name": "砂糖",
+        "amount": 1,
+        "unit": "大さじ",
+        "category": "調味料"
+      },
+      {
+        "name": "サラダ油",
+        "amount": 1,
+        "unit": "大さじ",
+        "category": "調味料"
+      }
+    ],
+    "steps": [
+      "鶏もも肉は余分な脂を取り除き、フォークで数カ所刺す。",
+      "醤油・みりん・砂糖を混ぜてタレを作る。",
+      "フライパンに油を熱し、鶏肉を皮目から中火で焼く（7分）。",
+      "裏返してさらに5分焼いたらタレを加え、絡めながら照りが出るまで煮詰める。",
+      "粗熱が取れたら一口大に切り、保存容器に移す。"
+    ],
+    "nutrition_per_serving": {
+      "calories": 280,
+      "protein_g": 25,
+      "fat_g": 14,
+      "carbs_g": 8,
+      "salt_g": 1.5,
+      "iron_mg": 1.2,
+      "calcium_mg": 15,
+      "folate_ug": 12
+    },
+    "tags": [
+      "作り置き",
+      "子供OK",
+      "定番"
+    ],
+    "favorite": false
+  },
+  {
+    "id": "recipe_002",
+    "name": "豚の生姜焼き",
+    "category": "主菜",
+    "cooker": "normal",
+    "servings": 3,
+    "batch_servings": 10,
+    "serving_size_adult_g": 80,
+    "serving_size_child_g": 40,
+    "prep_time_min": 10,
+    "cook_time_min": 15,
+    "storage_days": 4,
+    "ingredients": [
+      {
+        "name": "豚ロース薄切り",
+        "amount": 400,
+        "unit": "g",
+        "category": "肉類"
+      },
+      {
+        "name": "玉ねぎ",
+        "amount": 1,
+        "unit": "個",
+        "category": "野菜"
+      },
+      {
+        "name": "醤油",
+        "amount": 3,
+        "unit": "大さじ",
+        "category": "調味料"
+      },
+      {
+        "name": "みりん",
+        "amount": 2,
+        "unit": "大さじ",
+        "category": "調味料"
+      },
+      {
+        "name": "おろし生姜",
+        "amount": 1,
+        "unit": "小さじ",
+        "category": "調味料"
+      },
+      {
+        "name": "サラダ油",
+        "amount": 1,
+        "unit": "大さじ",
+        "category": "調味料"
+      }
+    ],
+    "steps": [
+      "玉ねぎは薄切りにする。",
+      "醤油・みりん・おろし生姜を混ぜてタレを作る。",
+      "フライパンに油を熱し、玉ねぎを炒める（3分）。",
+      "豚肉を加えて炒め、色が変わったらタレを加えて絡める。",
+      "保存容器に移して粗熱を取る。"
+    ],
+    "nutrition_per_serving": {
+      "calories": 290,
+      "protein_g": 22,
+      "fat_g": 16,
+      "carbs_g": 10,
+      "salt_g": 1.6,
+      "iron_mg": 1.0,
+      "calcium_mg": 12,
+      "folate_ug": 8
+    },
+    "tags": [
+      "作り置き",
+      "子供OK",
+      "定番"
+    ],
+    "favorite": false
+  },
+  {
+    "id": "recipe_003",
+    "name": "さばの味噌煮",
+    "category": "主菜",
+    "cooker": "normal",
+    "servings": 3,
+    "batch_servings": 10,
+    "serving_size_adult_g": 80,
+    "serving_size_child_g": 40,
+    "prep_time_min": 10,
+    "cook_time_min": 25,
+    "storage_days": 4,
+    "ingredients": [
+      {
+        "name": "さば",
+        "amount": 3,
+        "unit": "切れ",
+        "category": "魚介類"
+      },
+      {
+        "name": "味噌",
+        "amount": 3,
+        "unit": "大さじ",
+        "category": "調味料"
+      },
+      {
+        "name": "みりん",
+        "amount": 2,
+        "unit": "大さじ",
+        "category": "調味料"
+      },
+      {
+        "name": "砂糖",
+        "amount": 1,
+        "unit": "大さじ",
+        "category": "調味料"
+      },
+      {
+        "name": "水",
+        "amount": 150,
+        "unit": "ml",
+        "category": "その他"
+      },
+      {
+        "name": "生姜スライス",
+        "amount": 3,
+        "unit": "枚",
+        "category": "野菜"
+      }
+    ],
+    "steps": [
+      "さばに熱湯をかけ、臭みを取る。",
+      "鍋に水・みりん・砂糖・生姜を入れて煮立てる。",
+      "さばを加えてアルミホイルで落し蓋をし、中火で10分煮る。",
+      "味噌を溶き入れ、さらに10分煮詰める。",
+      "保存容器に移す。"
+    ],
+    "nutrition_per_serving": {
+      "calories": 260,
+      "protein_g": 24,
+      "fat_g": 12,
+      "carbs_g": 10,
+      "salt_g": 1.8,
+      "iron_mg": 2.0,
+      "calcium_mg": 30,
+      "folate_ug": 15
+    },
+    "tags": [
+      "作り置き",
+      "妊婦向け",
+      "鉄分",
+      "DHA"
+    ],
+    "favorite": false
+  },
+  {
+    "id": "recipe_004",
+    "name": "ひじき入り豆腐ハンバーグ",
+    "category": "主菜",
+    "cooker": "normal",
+    "servings": 3,
+    "batch_servings": 8,
+    "serving_size_adult_g": 80,
+    "serving_size_child_g": 40,
+    "prep_time_min": 15,
+    "cook_time_min": 20,
+    "storage_days": 3,
+    "ingredients": [
+      {
+        "name": "合いびき肉",
+        "amount": 200,
+        "unit": "g",
+        "category": "肉類"
+      },
+      {
+        "name": "木綿豆腐",
+        "amount": 150,
+        "unit": "g",
+        "category": "大豆製品"
+      },
+      {
+        "name": "乾燥ひじき",
+        "amount": 10,
+        "unit": "g",
+        "category": "海藻類"
+      },
+      {
+        "name": "玉ねぎ",
+        "amount": 0.5,
+        "unit": "個",
+        "category": "野菜"
+      },
+      {
+        "name": "卵",
+        "amount": 1,
+        "unit": "個",
+        "category": "卵"
+      },
+      {
+        "name": "パン粉",
+        "amount": 3,
+        "unit": "大さじ",
+        "category": "その他"
+      },
+      {
+        "name": "醤油",
+        "amount": 1,
+        "unit": "大さじ",
+        "category": "調味料"
+      },
+      {
+        "name": "塩",
+        "amount": 0.5,
+        "unit": "小さじ",
+        "category": "調味料"
+      }
+    ],
+    "steps": [
+      "ひじきは水で戻す（15分）。玉ねぎはみじん切りにする。",
+      "豆腐はキッチンペーパーで水気を切る。",
+      "ボウルに全材料を入れてよく混ぜ、6等分して小判形に成形する。",
+      "フライパンで中火で両面を焼く（各4分）。",
+      "蓋をして弱火で5分蒸し焼きにする。",
+      "保存容器に移す。"
+    ],
+    "nutrition_per_serving": {
+      "calories": 240,
+      "protein_g": 18,
+      "fat_g": 13,
+      "carbs_g": 10,
+      "salt_g": 1.2,
+      "iron_mg": 3.5,
+      "calcium_mg": 120,
+      "folate_ug": 30
+    },
+    "tags": [
+      "作り置き",
+      "妊婦向け",
+      "鉄分",
+      "カルシウム",
+      "子供OK"
+    ],
+    "favorite": false
+  },
+  {
+    "id": "recipe_005",
+    "name": "鮭のホイル焼き",
+    "category": "主菜",
+    "cooker": "normal",
+    "servings": 3,
+    "batch_servings": 10,
+    "serving_size_adult_g": 80,
+    "serving_size_child_g": 40,
+    "prep_time_min": 10,
+    "cook_time_min": 20,
+    "storage_days": 3,
+    "ingredients": [
+      {
+        "name": "生鮭",
+        "amount": 3,
+        "unit": "切れ",
+        "category": "魚介類"
+      },
+      {
+        "name": "しめじ",
+        "amount": 100,
+        "unit": "g",
+        "category": "野菜"
+      },
+      {
+        "name": "玉ねぎ",
+        "amount": 0.5,
+        "unit": "個",
+        "category": "野菜"
+      },
+      {
+        "name": "バター",
+        "amount": 15,
+        "unit": "g",
+        "category": "乳製品"
+      },
+      {
+        "name": "醤油",
+        "amount": 1,
+        "unit": "大さじ",
+        "category": "調味料"
+      },
+      {
+        "name": "塩こしょう",
+        "amount": 1,
+        "unit": "少々",
+        "category": "調味料"
+      }
+    ],
+    "steps": [
+      "玉ねぎは薄切り、しめじはほぐす。",
+      "アルミホイルに玉ねぎを敷き、鮭を乗せる。",
+      "しめじを加え、バターと醤油をかけて包む。",
+      "フライパンに乗せ、蓋をして中火で15〜20分蒸し焼きにする。",
+      "保存容器に移す。"
+    ],
+    "nutrition_per_serving": {
+      "calories": 220,
+      "protein_g": 26,
+      "fat_g": 10,
+      "carbs_g": 5,
+      "salt_g": 1.0,
+      "iron_mg": 1.5,
+      "calcium_mg": 25,
+      "folate_ug": 20
+    },
+    "tags": [
+      "作り置き",
+      "妊婦向け",
+      "子供OK",
+      "DHA"
+    ],
+    "favorite": false
+  },
+  {
+    "id": "recipe_006",
+    "name": "筑前煮",
+    "category": "主菜",
+    "cooker": "normal",
+    "servings": 3,
+    "batch_servings": 10,
+    "serving_size_adult_g": 80,
+    "serving_size_child_g": 40,
+    "prep_time_min": 15,
+    "cook_time_min": 30,
+    "storage_days": 5,
+    "ingredients": [
+      {
+        "name": "鶏もも肉",
+        "amount": 200,
+        "unit": "g",
+        "category": "肉類"
+      },
+      {
+        "name": "れんこん",
+        "amount": 100,
+        "unit": "g",
+        "category": "野菜"
+      },
+      {
+        "name": "ごぼう",
+        "amount": 100,
+        "unit": "g",
+        "category": "野菜"
+      },
+      {
+        "name": "にんじん",
+        "amount": 1,
+        "unit": "本",
+        "category": "野菜"
+      },
+      {
+        "name": "しいたけ",
+        "amount": 4,
+        "unit": "枚",
+        "category": "野菜"
+      },
+      {
+        "name": "こんにゃく",
+        "amount": 0.5,
+        "unit": "枚",
+        "category": "その他"
+      },
+      {
+        "name": "醤油",
+        "amount": 3,
+        "unit": "大さじ",
+        "category": "調味料"
+      },
+      {
+        "name": "みりん",
+        "amount": 3,
+        "unit": "大さじ",
+        "category": "調味料"
+      },
+      {
+        "name": "砂糖",
+        "amount": 1,
+        "unit": "大さじ",
+        "category": "調味料"
+      },
+      {
+        "name": "だし",
+        "amount": 200,
+        "unit": "ml",
+        "category": "その他"
+      }
+    ],
+    "steps": [
+      "野菜は一口大に切る。こんにゃくはちぎって下茹でする。",
+      "鍋にごま油を熱し、鶏肉を炒める。",
+      "野菜・こんにゃくを加えて炒める。",
+      "だし・醤油・みりん・砂糖を加え、落し蓋をして20分煮る。",
+      "汁気が少なくなったら火を止め、保存容器に移す。"
+    ],
+    "nutrition_per_serving": {
+      "calories": 230,
+      "protein_g": 16,
+      "fat_g": 7,
+      "carbs_g": 28,
+      "salt_g": 1.8,
+      "iron_mg": 2.2,
+      "calcium_mg": 50,
+      "folate_ug": 45
+    },
+    "tags": [
+      "作り置き",
+      "妊婦向け",
+      "葉酸",
+      "子供OK",
+      "定番"
+    ],
+    "favorite": false
+  },
+  {
+    "id": "recipe_007",
+    "name": "ほうれん草のおひたし",
+    "category": "副菜",
+    "cooker": "normal",
+    "servings": 3,
+    "batch_servings": 12,
+    "serving_size_adult_g": 50,
+    "serving_size_child_g": 25,
+    "prep_time_min": 5,
+    "cook_time_min": 5,
+    "storage_days": 3,
+    "ingredients": [
+      {
+        "name": "ほうれん草",
+        "amount": 200,
+        "unit": "g",
+        "category": "野菜"
+      },
+      {
+        "name": "醤油",
+        "amount": 1,
+        "unit": "大さじ",
+        "category": "調味料"
+      },
+      {
+        "name": "だし",
+        "amount": 2,
+        "unit": "大さじ",
+        "category": "その他"
+      },
+      {
+        "name": "かつお節",
+        "amount": 1,
+        "unit": "袋",
+        "category": "その他"
+      }
+    ],
+    "steps": [
+      "ほうれん草は塩を加えた熱湯で1分茹でる。",
+      "冷水に取り、水気をしっかり絞る。",
+      "4cm幅に切り、醤油とだしを合わせたものに浸す。",
+      "保存容器に移し、食べる直前にかつお節をかける。"
+    ],
+    "nutrition_per_serving": {
+      "calories": 25,
+      "protein_g": 2.5,
+      "fat_g": 0.3,
+      "carbs_g": 3,
+      "salt_g": 0.5,
+      "iron_mg": 2.0,
+      "calcium_mg": 60,
+      "folate_ug": 90
+    },
+    "tags": [
+      "作り置き",
+      "妊婦向け",
+      "鉄分",
+      "葉酸",
+      "カルシウム"
+    ],
+    "favorite": false
+  },
+  {
+    "id": "recipe_008",
+    "name": "ひじきの煮物",
+    "category": "副菜",
+    "cooker": "normal",
+    "servings": 3,
+    "batch_servings": 10,
+    "serving_size_adult_g": 60,
+    "serving_size_child_g": 30,
+    "prep_time_min": 5,
+    "cook_time_min": 15,
+    "storage_days": 5,
+    "ingredients": [
+      {
+        "name": "乾燥ひじき",
+        "amount": 20,
+        "unit": "g",
+        "category": "海藻類"
+      },
+      {
+        "name": "油揚げ",
+        "amount": 1,
+        "unit": "枚",
+        "category": "大豆製品"
+      },
+      {
+        "name": "にんじん",
+        "amount": 0.5,
+        "unit": "本",
+        "category": "野菜"
+      },
+      {
+        "name": "大豆水煮",
+        "amount": 50,
+        "unit": "g",
+        "category": "大豆製品"
+      },
+      {
+        "name": "醤油",
+        "amount": 2,
+        "unit": "大さじ",
+        "category": "調味料"
+      },
+      {
+        "name": "みりん",
+        "amount": 2,
+        "unit": "大さじ",
+        "category": "調味料"
+      },
+      {
+        "name": "砂糖",
+        "amount": 1,
+        "unit": "大さじ",
+        "category": "調味料"
+      },
+      {
+        "name": "ごま油",
+        "amount": 1,
+        "unit": "小さじ",
+        "category": "調味料"
+      }
+    ],
+    "steps": [
+      "ひじきは水で戻す（20分）。油揚げは湯通しして千切り。にんじんは千切り。",
+      "鍋にごま油を熱し、ひじき・にんじん・油揚げ・大豆を炒める。",
+      "水50mlと調味料を加え、汁気がなくなるまで中火で煮る（10分）。",
+      "保存容器に移す。"
+    ],
+    "nutrition_per_serving": {
+      "calories": 110,
+      "protein_g": 6,
+      "fat_g": 4,
+      "carbs_g": 13,
+      "salt_g": 1.0,
+      "iron_mg": 4.0,
+      "calcium_mg": 150,
+      "folate_ug": 35
+    },
+    "tags": [
+      "作り置き",
+      "妊婦向け",
+      "鉄分",
+      "カルシウム",
+      "子供OK"
+    ],
+    "favorite": false
+  },
+  {
+    "id": "recipe_009",
+    "name": "切り干し大根の煮物",
+    "category": "副菜",
+    "cooker": "normal",
+    "servings": 3,
+    "batch_servings": 10,
+    "serving_size_adult_g": 60,
+    "serving_size_child_g": 30,
+    "prep_time_min": 5,
+    "cook_time_min": 15,
+    "storage_days": 5,
+    "ingredients": [
+      {
+        "name": "切り干し大根",
+        "amount": 30,
+        "unit": "g",
+        "category": "野菜"
+      },
+      {
+        "name": "にんじん",
+        "amount": 0.5,
+        "unit": "本",
+        "category": "野菜"
+      },
+      {
+        "name": "油揚げ",
+        "amount": 1,
+        "unit": "枚",
+        "category": "大豆製品"
+      },
+      {
+        "name": "醤油",
+        "amount": 2,
+        "unit": "大さじ",
+        "category": "調味料"
+      },
+      {
+        "name": "みりん",
+        "amount": 2,
+        "unit": "大さじ",
+        "category": "調味料"
+      },
+      {
+        "name": "砂糖",
+        "amount": 1,
+        "unit": "小さじ",
+        "category": "調味料"
+      },
+      {
+        "name": "だし",
+        "amount": 200,
+        "unit": "ml",
+        "category": "その他"
+      }
+    ],
+    "steps": [
+      "切り干し大根は水で戻す（10分）。にんじんは千切り、油揚げは湯通しして千切り。",
+      "鍋にだしを熱し、全材料と調味料を加える。",
+      "落し蓋をして中火で10〜15分、汁気が少なくなるまで煮る。",
+      "保存容器に移す。"
+    ],
+    "nutrition_per_serving": {
+      "calories": 90,
+      "protein_g": 4,
+      "fat_g": 2,
+      "carbs_g": 15,
+      "salt_g": 1.1,
+      "iron_mg": 1.5,
+      "calcium_mg": 80,
+      "folate_ug": 20
+    },
+    "tags": [
+      "作り置き",
+      "妊婦向け",
+      "カルシウム",
+      "子供OK"
+    ],
+    "favorite": false
+  },
+  {
+    "id": "recipe_010",
+    "name": "ブロッコリーのごま和え",
+    "category": "副菜",
+    "cooker": "normal",
+    "servings": 3,
+    "batch_servings": 12,
+    "serving_size_adult_g": 50,
+    "serving_size_child_g": 25,
+    "prep_time_min": 5,
+    "cook_time_min": 5,
+    "storage_days": 3,
+    "ingredients": [
+      {
+        "name": "ブロッコリー",
+        "amount": 200,
+        "unit": "g",
+        "category": "野菜"
+      },
+      {
+        "name": "すりごま",
+        "amount": 2,
+        "unit": "大さじ",
+        "category": "その他"
+      },
+      {
+        "name": "醤油",
+        "amount": 1,
+        "unit": "大さじ",
+        "category": "調味料"
+      },
+      {
+        "name": "砂糖",
+        "amount": 1,
+        "unit": "小さじ",
+        "category": "調味料"
+      },
+      {
+        "name": "みりん",
+        "amount": 1,
+        "unit": "小さじ",
+        "category": "調味料"
+      }
+    ],
+    "steps": [
+      "ブロッコリーは小房に分け、塩茹でする（2〜3分）。",
+      "水気を切り、粗熱を取る。",
+      "すりごま・醤油・砂糖・みりんを混ぜてたれを作る。",
+      "ブロッコリーとたれを和えて保存容器に移す。"
+    ],
+    "nutrition_per_serving": {
+      "calories": 70,
+      "protein_g": 4,
+      "fat_g": 3,
+      "carbs_g": 7,
+      "salt_g": 0.5,
+      "iron_mg": 1.0,
+      "calcium_mg": 55,
+      "folate_ug": 80
+    },
+    "tags": [
+      "作り置き",
+      "妊婦向け",
+      "葉酸",
+      "カルシウム",
+      "子供OK"
+    ],
+    "favorite": false
+  },
+  {
+    "id": "recipe_011",
+    "name": "小松菜と油揚げの炒め物",
+    "category": "副菜",
+    "cooker": "normal",
+    "servings": 3,
+    "batch_servings": 12,
+    "serving_size_adult_g": 50,
+    "serving_size_child_g": 25,
+    "prep_time_min": 5,
+    "cook_time_min": 10,
+    "storage_days": 3,
+    "ingredients": [
+      {
+        "name": "小松菜",
+        "amount": 200,
+        "unit": "g",
+        "category": "野菜"
+      },
+      {
+        "name": "油揚げ",
+        "amount": 2,
+        "unit": "枚",
+        "category": "大豆製品"
+      },
+      {
+        "name": "醤油",
+        "amount": 1.5,
+        "unit": "大さじ",
+        "category": "調味料"
+      },
+      {
+        "name": "みりん",
+        "amount": 1,
+        "unit": "大さじ",
+        "category": "調味料"
+      },
+      {
+        "name": "ごま油",
+        "amount": 1,
+        "unit": "大さじ",
+        "category": "調味料"
+      },
+      {
+        "name": "白ごま",
+        "amount": 1,
+        "unit": "小さじ",
+        "category": "その他"
+      }
+    ],
+    "steps": [
+      "小松菜は4cm幅に切る。油揚げは湯通しして短冊切りにする。",
+      "フライパンにごま油を熱し、油揚げを炒める（2分）。",
+      "小松菜の茎を加えて炒め、葉を加えてさらに炒める。",
+      "醤油・みりんで調味し、白ごまをふって保存容器に移す。"
+    ],
+    "nutrition_per_serving": {
+      "calories": 95,
+      "protein_g": 5,
+      "fat_g": 6,
+      "carbs_g": 5,
+      "salt_g": 0.8,
+      "iron_mg": 2.5,
+      "calcium_mg": 170,
+      "folate_ug": 55
+    },
+    "tags": [
+      "作り置き",
+      "妊婦向け",
+      "鉄分",
+      "カルシウム",
+      "子供OK"
+    ],
+    "favorite": false
+  },
+  {
+    "id": "recipe_012",
+    "name": "かぼちゃの煮物",
+    "category": "副菜",
+    "cooker": "normal",
+    "servings": 3,
+    "batch_servings": 12,
+    "serving_size_adult_g": 60,
+    "serving_size_child_g": 30,
+    "prep_time_min": 5,
+    "cook_time_min": 15,
+    "storage_days": 4,
+    "ingredients": [
+      {
+        "name": "かぼちゃ",
+        "amount": 300,
+        "unit": "g",
+        "category": "野菜"
+      },
+      {
+        "name": "醤油",
+        "amount": 1.5,
+        "unit": "大さじ",
+        "category": "調味料"
+      },
+      {
+        "name": "みりん",
+        "amount": 2,
+        "unit": "大さじ",
+        "category": "調味料"
+      },
+      {
+        "name": "砂糖",
+        "amount": 1,
+        "unit": "大さじ",
+        "category": "調味料"
+      },
+      {
+        "name": "だし",
+        "amount": 150,
+        "unit": "ml",
+        "category": "その他"
+      }
+    ],
+    "steps": [
+      "かぼちゃは種とわたを取り、一口大に切る。",
+      "鍋にだし・調味料を入れて煮立てる。",
+      "かぼちゃを皮目を下にして加え、落し蓋をして弱火で12〜15分煮る。",
+      "火を止めてそのまま10分置く。保存容器に移す。"
+    ],
+    "nutrition_per_serving": {
+      "calories": 115,
+      "protein_g": 2,
+      "fat_g": 0.3,
+      "carbs_g": 25,
+      "salt_g": 0.8,
+      "iron_mg": 0.5,
+      "calcium_mg": 20,
+      "folate_ug": 60
+    },
+    "tags": [
+      "作り置き",
+      "妊婦向け",
+      "葉酸",
+      "子供OK",
+      "定番"
+    ],
+    "favorite": false
+  },
+  {
+    "id": "recipe_013",
+    "name": "だし巻き卵",
+    "category": "副菜",
+    "cooker": "normal",
+    "servings": 3,
+    "batch_servings": 12,
+    "serving_size_adult_g": 50,
+    "serving_size_child_g": 25,
+    "prep_time_min": 5,
+    "cook_time_min": 10,
+    "storage_days": 3,
+    "ingredients": [
+      {
+        "name": "卵",
+        "amount": 4,
+        "unit": "個",
+        "category": "卵"
+      },
+      {
+        "name": "だし",
+        "amount": 60,
+        "unit": "ml",
+        "category": "その他"
+      },
+      {
+        "name": "醤油",
+        "amount": 1,
+        "unit": "小さじ",
+        "category": "調味料"
+      },
+      {
+        "name": "みりん",
+        "amount": 1,
+        "unit": "小さじ",
+        "category": "調味料"
+      },
+      {
+        "name": "塩",
+        "amount": 1,
+        "unit": "少々",
+        "category": "調味料"
+      },
+      {
+        "name": "サラダ油",
+        "amount": 1,
+        "unit": "小さじ",
+        "category": "調味料"
+      }
+    ],
+    "steps": [
+      "卵を溶きほぐし、だし・醤油・みりん・塩を加えてよく混ぜる。",
+      "卵焼き器に油を熱し、卵液の1/3を流し入れる。",
+      "半熟になったら手前に巻き、奥に移して残りの卵液を流す。これを2回繰り返す。",
+      "形を整えて粗熱を取り、切り分けて保存容器に移す。"
+    ],
+    "nutrition_per_serving": {
+      "calories": 100,
+      "protein_g": 8,
+      "fat_g": 6,
+      "carbs_g": 3,
+      "salt_g": 0.4,
+      "iron_mg": 1.0,
+      "calcium_mg": 35,
+      "folate_ug": 25
+    },
+    "tags": [
+      "作り置き",
+      "子供OK",
+      "定番",
+      "タンパク質"
+    ],
+    "favorite": false
+  },
+  {
+    "id": "recipe_014",
+    "name": "豚汁",
+    "category": "スープ",
+    "cooker": "normal",
+    "servings": 3,
+    "batch_servings": 8,
+    "serving_size_adult_g": 150,
+    "serving_size_child_g": 100,
+    "prep_time_min": 10,
+    "cook_time_min": 20,
+    "storage_days": 3,
+    "ingredients": [
+      {
+        "name": "豚こま切れ肉",
+        "amount": 150,
+        "unit": "g",
+        "category": "肉類"
+      },
+      {
+        "name": "大根",
+        "amount": 150,
+        "unit": "g",
+        "category": "野菜"
+      },
+      {
+        "name": "にんじん",
+        "amount": 0.5,
+        "unit": "本",
+        "category": "野菜"
+      },
+      {
+        "name": "ごぼう",
+        "amount": 50,
+        "unit": "g",
+        "category": "野菜"
+      },
+      {
+        "name": "こんにゃく",
+        "amount": 0.5,
+        "unit": "枚",
+        "category": "その他"
+      },
+      {
+        "name": "味噌",
+        "amount": 3,
+        "unit": "大さじ",
+        "category": "調味料"
+      },
+      {
+        "name": "だし",
+        "amount": 600,
+        "unit": "ml",
+        "category": "その他"
+      },
+      {
+        "name": "ごま油",
+        "amount": 1,
+        "unit": "小さじ",
+        "category": "調味料"
+      }
+    ],
+    "steps": [
+      "野菜は食べやすい大きさに切る。こんにゃくはちぎって下茹でする。",
+      "鍋にごま油を熱し、豚肉を炒める。",
+      "野菜・こんにゃくを加えて炒め、だしを加えて煮る（10分）。",
+      "野菜が柔らかくなったら味噌を溶き入れ、沸騰直前で火を止める。",
+      "粗熱を取り保存容器に移す。温め直す際は沸騰させないこと。"
+    ],
+    "nutrition_per_serving": {
+      "calories": 160,
+      "protein_g": 12,
+      "fat_g": 7,
+      "carbs_g": 12,
+      "salt_g": 1.5,
+      "iron_mg": 1.2,
+      "calcium_mg": 35,
+      "folate_ug": 25
+    },
+    "tags": [
+      "作り置き",
+      "子供OK",
+      "定番",
+      "温まる"
+    ],
+    "favorite": false
+  },
+  {
+    "id": "recipe_015",
+    "name": "大豆とトマトの洋風スープ",
+    "category": "スープ",
+    "cooker": "normal",
+    "servings": 3,
+    "batch_servings": 8,
+    "serving_size_adult_g": 150,
+    "serving_size_child_g": 100,
+    "prep_time_min": 10,
+    "cook_time_min": 20,
+    "storage_days": 4,
+    "ingredients": [
+      {
+        "name": "大豆水煮",
+        "amount": 150,
+        "unit": "g",
+        "category": "大豆製品"
+      },
+      {
+        "name": "カットトマト缶",
+        "amount": 0.5,
+        "unit": "缶",
+        "category": "野菜"
+      },
+      {
+        "name": "玉ねぎ",
+        "amount": 1,
+        "unit": "個",
+        "category": "野菜"
+      },
+      {
+        "name": "にんじん",
+        "amount": 0.5,
+        "unit": "本",
+        "category": "野菜"
+      },
+      {
+        "name": "ほうれん草",
+        "amount": 80,
+        "unit": "g",
+        "category": "野菜"
+      },
+      {
+        "name": "コンソメ",
+        "amount": 2,
+        "unit": "個",
+        "category": "調味料"
+      },
+      {
+        "name": "水",
+        "amount": 500,
+        "unit": "ml",
+        "category": "その他"
+      },
+      {
+        "name": "塩こしょう",
+        "amount": 1,
+        "unit": "少々",
+        "category": "調味料"
+      },
+      {
+        "name": "オリーブオイル",
+        "amount": 1,
+        "unit": "大さじ",
+        "category": "調味料"
+      }
+    ],
+    "steps": [
+      "玉ねぎ・にんじんはさいの目切り。ほうれん草はざく切り。",
+      "鍋にオリーブオイルを熱し、玉ねぎ・にんじんを炒める（5分）。",
+      "大豆・トマト缶・水・コンソメを加えて煮る（10分）。",
+      "ほうれん草を加えてさらに3分煮る。塩こしょうで調味する。",
+      "粗熱を取り保存容器に移す。"
+    ],
+    "nutrition_per_serving": {
+      "calories": 140,
+      "protein_g": 8,
+      "fat_g": 5,
+      "carbs_g": 17,
+      "salt_g": 1.3,
+      "iron_mg": 3.0,
+      "calcium_mg": 70,
+      "folate_ug": 85
+    },
+    "tags": [
+      "作り置き",
+      "妊婦向け",
+      "鉄分",
+      "葉酸",
+      "子供OK"
+    ],
+    "favorite": false
+  },
+  {
+    "id": "recipe_016",
+    "name": "わかめと豆腐のみそ汁",
+    "category": "スープ",
+    "cooker": "normal",
+    "servings": 3,
+    "batch_servings": 8,
+    "serving_size_adult_g": 150,
+    "serving_size_child_g": 100,
+    "prep_time_min": 5,
+    "cook_time_min": 5,
+    "storage_days": 2,
+    "ingredients": [
+      {
+        "name": "乾燥わかめ",
+        "amount": 5,
+        "unit": "g",
+        "category": "海藻類"
+      },
+      {
+        "name": "絹ごし豆腐",
+        "amount": 150,
+        "unit": "g",
+        "category": "大豆製品"
+      },
+      {
+        "name": "長ねぎ",
+        "amount": 0.3,
+        "unit": "本",
+        "category": "野菜"
+      },
+      {
+        "name": "味噌",
+        "amount": 3,
+        "unit": "大さじ",
+        "category": "調味料"
+      },
+      {
+        "name": "だし",
+        "amount": 600,
+        "unit": "ml",
+        "category": "その他"
+      }
+    ],
+    "steps": [
+      "わかめは水で戻す。豆腐は一口大に切る。ねぎは小口切り。",
+      "だしを温め、豆腐を加えて温める。",
+      "味噌を溶き入れ、わかめを加える。",
+      "沸騰直前で火を止め、ねぎをのせる。",
+      "保存する場合は粗熱を取り冷蔵する。温め直す際は沸騰させないこと。"
+    ],
+    "nutrition_per_serving": {
+      "calories": 55,
+      "protein_g": 4,
+      "fat_g": 2,
+      "carbs_g": 5,
+      "salt_g": 1.4,
+      "iron_mg": 1.0,
+      "calcium_mg": 85,
+      "folate_ug": 15
+    },
+    "tags": [
+      "作り置き",
+      "妊婦向け",
+      "カルシウム",
+      "子供OK",
+      "定番"
+    ],
+    "favorite": false
+  },
+  {
+    "id": "recipe_017",
+    "name": "豚の角煮",
+    "category": "主菜",
+    "cooker": "electric_pressure",
+    "servings": 3,
+    "batch_servings": 10,
+    "serving_size_adult_g": 80,
+    "serving_size_child_g": 40,
+    "prep_time_min": 10,
+    "cook_time_min": 40,
+    "storage_days": 5,
+    "ingredients": [
+      {
+        "name": "豚バラブロック",
+        "amount": 500,
+        "unit": "g",
+        "category": "肉類"
+      },
+      {
+        "name": "醤油",
+        "amount": 4,
+        "unit": "大さじ",
+        "category": "調味料"
+      },
+      {
+        "name": "みりん",
+        "amount": 4,
+        "unit": "大さじ",
+        "category": "調味料"
+      },
+      {
+        "name": "砂糖",
+        "amount": 2,
+        "unit": "大さじ",
+        "category": "調味料"
+      },
+      {
+        "name": "酒",
+        "amount": 100,
+        "unit": "ml",
+        "category": "調味料"
+      },
+      {
+        "name": "水",
+        "amount": 100,
+        "unit": "ml",
+        "category": "その他"
+      },
+      {
+        "name": "生姜スライス",
+        "amount": 3,
+        "unit": "枚",
+        "category": "野菜"
+      },
+      {
+        "name": "長ねぎ（青い部分）",
+        "amount": 1,
+        "unit": "本",
+        "category": "野菜"
+      }
+    ],
+    "steps": [
+      "豚バラを4〜5cm角に切り、フライパンで表面を焼き付ける（5分）。",
+      "電気圧力鍋に豚肉・調味料・生姜・ねぎをすべて入れる。",
+      "高圧モードで30分加圧する。",
+      "蒸気を逃がして蓋を開け、鍋モードで汁を煮詰める（5分）。",
+      "粗熱を取り保存容器に移す。冷やして固まった脂を取り除くと◎。"
+    ],
+    "nutrition_per_serving": {
+      "calories": 380,
+      "protein_g": 20,
+      "fat_g": 28,
+      "carbs_g": 8,
+      "salt_g": 1.8,
+      "iron_mg": 1.5,
+      "calcium_mg": 10,
+      "folate_ug": 5
+    },
+    "tags": [
+      "作り置き",
+      "子供OK",
+      "電気圧力鍋",
+      "定番"
+    ],
+    "favorite": false
+  },
+  {
+    "id": "recipe_018",
+    "name": "鶏手羽元と大根の煮物",
+    "category": "主菜",
+    "cooker": "electric_pressure",
+    "servings": 3,
+    "batch_servings": 10,
+    "serving_size_adult_g": 120,
+    "serving_size_child_g": 60,
+    "prep_time_min": 10,
+    "cook_time_min": 30,
+    "storage_days": 4,
+    "ingredients": [
+      {
+        "name": "鶏手羽元",
+        "amount": 6,
+        "unit": "本",
+        "category": "肉類"
+      },
+      {
+        "name": "大根",
+        "amount": 300,
+        "unit": "g",
+        "category": "野菜"
+      },
+      {
+        "name": "醤油",
+        "amount": 3,
+        "unit": "大さじ",
+        "category": "調味料"
+      },
+      {
+        "name": "みりん",
+        "amount": 3,
+        "unit": "大さじ",
+        "category": "調味料"
+      },
+      {
+        "name": "砂糖",
+        "amount": 1,
+        "unit": "大さじ",
+        "category": "調味料"
+      },
+      {
+        "name": "酒",
+        "amount": 50,
+        "unit": "ml",
+        "category": "調味料"
+      },
+      {
+        "name": "水",
+        "amount": 150,
+        "unit": "ml",
+        "category": "その他"
+      },
+      {
+        "name": "生姜スライス",
+        "amount": 2,
+        "unit": "枚",
+        "category": "野菜"
+      }
+    ],
+    "steps": [
+      "大根は2cm厚さの半月切りにする。",
+      "電気圧力鍋に手羽元・大根・調味料・水・生姜をすべて入れる。",
+      "高圧モードで20分加圧する。",
+      "蒸気を逃がして蓋を開け、鍋モードで5分煮詰める。",
+      "保存容器に移す。"
+    ],
+    "nutrition_per_serving": {
+      "calories": 260,
+      "protein_g": 22,
+      "fat_g": 12,
+      "carbs_g": 12,
+      "salt_g": 1.8,
+      "iron_mg": 1.3,
+      "calcium_mg": 40,
+      "folate_ug": 18
+    },
+    "tags": [
+      "作り置き",
+      "子供OK",
+      "電気圧力鍋",
+      "カルシウム"
+    ],
+    "favorite": false
+  },
+  {
+    "id": "recipe_019",
+    "name": "さつまいもの甘煮",
+    "category": "副菜",
+    "cooker": "electric_pressure",
+    "servings": 3,
+    "batch_servings": 12,
+    "serving_size_adult_g": 60,
+    "serving_size_child_g": 40,
+    "prep_time_min": 5,
+    "cook_time_min": 15,
+    "storage_days": 4,
+    "ingredients": [
+      {
+        "name": "さつまいも",
+        "amount": 400,
+        "unit": "g",
+        "category": "野菜"
+      },
+      {
+        "name": "砂糖",
+        "amount": 3,
+        "unit": "大さじ",
+        "category": "調味料"
+      },
+      {
+        "name": "みりん",
+        "amount": 2,
+        "unit": "大さじ",
+        "category": "調味料"
+      },
+      {
+        "name": "醤油",
+        "amount": 1,
+        "unit": "小さじ",
+        "category": "調味料"
+      },
+      {
+        "name": "水",
+        "amount": 100,
+        "unit": "ml",
+        "category": "その他"
+      },
+      {
+        "name": "レモン汁",
+        "amount": 1,
+        "unit": "大さじ",
+        "category": "調味料"
+      }
+    ],
+    "steps": [
+      "さつまいもは1.5cm厚さの輪切りにし、10分水にさらす。",
+      "電気圧力鍋にさつまいも・砂糖・みりん・醤油・水を入れる。",
+      "高圧モードで5分加圧する。",
+      "蒸気を逃がして蓋を開け、レモン汁を加えて混ぜる。",
+      "鍋モードで汁を軽く煮詰めて保存容器に移す。"
+    ],
+    "nutrition_per_serving": {
+      "calories": 130,
+      "protein_g": 1.2,
+      "fat_g": 0.1,
+      "carbs_g": 32,
+      "salt_g": 0.4,
+      "iron_mg": 0.6,
+      "calcium_mg": 28,
+      "folate_ug": 30
+    },
+    "tags": [
+      "作り置き",
+      "子供OK",
+      "電気圧力鍋",
+      "葉酸",
+      "定番"
+    ],
+    "favorite": false
+  },
+  {
+    "id": "recipe_020",
+    "name": "牛すじ大根",
+    "category": "主菜",
+    "cooker": "electric_pressure",
+    "servings": 3,
+    "batch_servings": 10,
+    "serving_size_adult_g": 100,
+    "serving_size_child_g": 50,
+    "prep_time_min": 10,
+    "cook_time_min": 50,
+    "storage_days": 4,
+    "ingredients": [
+      {
+        "name": "牛すじ肉",
+        "amount": 300,
+        "unit": "g",
+        "category": "肉類"
+      },
+      {
+        "name": "大根",
+        "amount": 300,
+        "unit": "g",
+        "category": "野菜"
+      },
+      {
+        "name": "にんじん",
+        "amount": 1,
+        "unit": "本",
+        "category": "野菜"
+      },
+      {
+        "name": "醤油",
+        "amount": 3,
+        "unit": "大さじ",
+        "category": "調味料"
+      },
+      {
+        "name": "みりん",
+        "amount": 3,
+        "unit": "大さじ",
+        "category": "調味料"
+      },
+      {
+        "name": "砂糖",
+        "amount": 1,
+        "unit": "大さじ",
+        "category": "調味料"
+      },
+      {
+        "name": "酒",
+        "amount": 50,
+        "unit": "ml",
+        "category": "調味料"
+      },
+      {
+        "name": "水",
+        "amount": 200,
+        "unit": "ml",
+        "category": "その他"
+      },
+      {
+        "name": "生姜スライス",
+        "amount": 3,
+        "unit": "枚",
+        "category": "野菜"
+      }
+    ],
+    "steps": [
+      "牛すじ肉は一口大に切り、熱湯で5分下茹でして洗う。",
+      "大根・にんじんは一口大に切る。",
+      "電気圧力鍋に全材料を入れる。",
+      "高圧モードで40分加圧する。",
+      "蒸気を逃がして蓋を開け、鍋モードで5分煮詰める。保存容器に移す。"
+    ],
+    "nutrition_per_serving": {
+      "calories": 290,
+      "protein_g": 22,
+      "fat_g": 16,
+      "carbs_g": 14,
+      "salt_g": 2.0,
+      "iron_mg": 2.8,
+      "calcium_mg": 25,
+      "folate_ug": 22
+    },
+    "tags": [
+      "作り置き",
+      "子供OK",
+      "電気圧力鍋",
+      "鉄分"
+    ],
+    "favorite": false
+  },
+  {
+    "id": "recipe_021",
+    "name": "白菜と豚バラのミルフィーユ蒸し",
+    "category": "主菜",
+    "cooker": "electric_pressure",
+    "servings": 3,
+    "batch_servings": 8,
+    "serving_size_adult_g": 120,
+    "serving_size_child_g": 60,
+    "prep_time_min": 15,
+    "cook_time_min": 15,
+    "storage_days": 3,
+    "ingredients": [
+      {
+        "name": "白菜",
+        "amount": 400,
+        "unit": "g",
+        "category": "野菜"
+      },
+      {
+        "name": "豚バラ薄切り",
+        "amount": 250,
+        "unit": "g",
+        "category": "肉類"
+      },
+      {
+        "name": "醤油",
+        "amount": 2,
+        "unit": "大さじ",
+        "category": "調味料"
+      },
+      {
+        "name": "ポン酢",
+        "amount": 2,
+        "unit": "大さじ",
+        "category": "調味料"
+      },
+      {
+        "name": "ごま油",
+        "amount": 1,
+        "unit": "大さじ",
+        "category": "調味料"
+      },
+      {
+        "name": "水",
+        "amount": 50,
+        "unit": "ml",
+        "category": "その他"
+      },
+      {
+        "name": "塩こしょう",
+        "amount": 1,
+        "unit": "少々",
+        "category": "調味料"
+      }
+    ],
+    "steps": [
+      "白菜は4〜5cm幅に切る。豚バラは塩こしょうをふる。",
+      "電気圧力鍋に白菜→豚バラ→白菜の順に交互に重ねて詰める。",
+      "ごま油・水を加えて蓋をし、高圧モードで10分加圧する。",
+      "蒸気を逃がして蓋を開け、醤油・ポン酢を回しかける。",
+      "一口大に切り分けて保存容器に移す。"
+    ],
+    "nutrition_per_serving": {
+      "calories": 300,
+      "protein_g": 18,
+      "fat_g": 22,
+      "carbs_g": 6,
+      "salt_g": 1.6,
+      "iron_mg": 1.0,
+      "calcium_mg": 60,
+      "folate_ug": 55
+    },
+    "tags": [
+      "作り置き",
+      "子供OK",
+      "電気圧力鍋",
+      "カルシウム"
+    ],
+    "favorite": false
+  },
+  {
+    "id": "recipe_022",
+    "name": "てすとごはん",
+    "category": "主菜",
+    "cooker": "normal",
+    "servings": 3,
+    "batch_servings": 3,
+    "serving_size_adult_g": 80,
+    "serving_size_child_g": 40,
+    "prep_time_min": 10,
+    "cook_time_min": 20,
+    "storage_days": 4,
+    "ingredients": [],
+    "steps": [],
+    "nutrition_per_serving": {
+      "calories": 0.0,
+      "protein_g": 0.0,
+      "fat_g": 0.0,
+      "carbs_g": 0.0,
+      "salt_g": 0.0,
+      "iron_mg": 0.0,
+      "calcium_mg": 0.0,
+      "folate_ug": 0.0
+    },
+    "tags": [],
+    "favorite": false
+  }
+]

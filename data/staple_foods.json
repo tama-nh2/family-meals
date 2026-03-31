@@ -1,0 +1,82 @@
+[
+  {
+    "id": "staple_001",
+    "name": "白米",
+    "default_amount_adult_g": 150,
+    "default_amount_child_g": 80,
+    "nutrition_per_100g": {
+      "calories": 168,
+      "protein_g": 2.5,
+      "fat_g": 0.3,
+      "carbs_g": 37.1,
+      "salt_g": 0.0,
+      "iron_mg": 0.1,
+      "calcium_mg": 3,
+      "folate_ug": 3
+    }
+  },
+  {
+    "id": "staple_002",
+    "name": "玄米",
+    "default_amount_adult_g": 150,
+    "default_amount_child_g": 80,
+    "nutrition_per_100g": {
+      "calories": 165,
+      "protein_g": 2.8,
+      "fat_g": 1.0,
+      "carbs_g": 35.6,
+      "salt_g": 0.0,
+      "iron_mg": 0.6,
+      "calcium_mg": 7,
+      "folate_ug": 10
+    }
+  },
+  {
+    "id": "staple_003",
+    "name": "雑穀米",
+    "default_amount_adult_g": 150,
+    "default_amount_child_g": 80,
+    "nutrition_per_100g": {
+      "calories": 160,
+      "protein_g": 3.2,
+      "fat_g": 0.8,
+      "carbs_g": 34.0,
+      "salt_g": 0.0,
+      "iron_mg": 0.8,
+      "calcium_mg": 10,
+      "folate_ug": 12
+    }
+  },
+  {
+    "id": "staple_004",
+    "name": "うどん（茹で）",
+    "default_amount_adult_g": 200,
+    "default_amount_child_g": 120,
+    "nutrition_per_100g": {
+      "calories": 105,
+      "protein_g": 2.6,
+      "fat_g": 0.4,
+      "carbs_g": 21.6,
+      "salt_g": 0.3,
+      "iron_mg": 0.2,
+      "calcium_mg": 9,
+      "folate_ug": 4
+    }
+  },
+  {
+    "id": "staple_005",
+    "name": "そば（茹で）",
+    "default_amount_adult_g": 200,
+    "default_amount_child_g": 120,
+    "nutrition_per_100g": {
+      "calories": 132,
+      "protein_g": 4.8,
+      "fat_g": 1.0,
+      "carbs_g": 26.0,
+      "salt_g": 0.0,
+      "iron_mg": 0.8,
+      "calcium_mg": 9,
+      "folate_ug": 13
+    }
+  }
+]
