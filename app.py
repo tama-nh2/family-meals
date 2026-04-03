@@ -121,7 +121,7 @@ recipes = get_recipes()
 def get_all_selected_ids() -> list[str]:
     plan = st.session_state.weekly_plan
     ids = []
-    for key in ["main", "side", "soup", "pressure"]:
+    for key in ["main", "side", "soup", "pressure", "microwave_main", "microwave_side"]:
         ids.extend(plan["selected_recipes"].get(key, []))
     return ids
 
@@ -155,7 +155,9 @@ CATEGORY_CONFIG = {
     "main":     {"label": "🍖 主菜",   "emoji": "🍖", "key": "main",     "cat_jp": "主菜"},
     "side":     {"label": "🥗 副菜",   "emoji": "🥗", "key": "side",     "cat_jp": "副菜"},
     "soup":     {"label": "🍲 スープ", "emoji": "🍲", "key": "soup",     "cat_jp": "スープ"},
-    "pressure": {"label": "⚡ 圧力鍋", "emoji": "⚡", "key": "pressure", "cat_jp": "主菜"},
+    "pressure":       {"label": "⚡ 圧力鍋",       "emoji": "⚡", "key": "pressure",       "cat_jp": "主菜"},
+    "microwave_main": {"label": "📱 主菜（レンジ）", "emoji": "📱", "key": "microwave_main", "cat_jp": "主菜"},
+    "microwave_side": {"label": "📱 副菜（レンジ）", "emoji": "📱", "key": "microwave_side", "cat_jp": "副菜"},
 }
 
 CAT_EMOJI = {"主菜": "🍖", "副菜": "🥗", "スープ": "🍲"}
@@ -295,11 +297,19 @@ with tab1:
         with c4:
             pressure_count = st.slider("⚡ 圧力鍋", 0, 3, settings.get("pressure_count", 0), key="slider_pressure")
 
+        mw1, mw2 = st.columns(2)
+        with mw1:
+            microwave_main_count = st.slider("📱 主菜（電子レンジ）", 0, 4, settings.get("microwave_main_count", 1), key="slider_mw_main")
+        with mw2:
+            microwave_side_count = st.slider("📱 副菜（電子レンジ）", 0, 4, settings.get("microwave_side_count", 1), key="slider_mw_side")
+
         changed = (
             main_count != settings["main_count"]
             or side_count != settings["side_count"]
             or soup_count != settings["soup_count"]
             or pressure_count != settings.get("pressure_count", 0)
+            or microwave_main_count != settings.get("microwave_main_count", 1)
+            or microwave_side_count != settings.get("microwave_side_count", 1)
         )
         if changed:
             sel = st.session_state.weekly_plan["selected_recipes"]
@@ -308,10 +318,16 @@ with tab1:
             sel["soup"] = sel["soup"][:soup_count]
             sel.setdefault("pressure", [])
             sel["pressure"] = sel["pressure"][:pressure_count]
+            sel.setdefault("microwave_main", [])
+            sel["microwave_main"] = sel["microwave_main"][:microwave_main_count]
+            sel.setdefault("microwave_side", [])
+            sel["microwave_side"] = sel["microwave_side"][:microwave_side_count]
             st.session_state.weekly_plan["settings"]["main_count"] = main_count
             st.session_state.weekly_plan["settings"]["side_count"] = side_count
             st.session_state.weekly_plan["settings"]["soup_count"] = soup_count
             st.session_state.weekly_plan["settings"]["pressure_count"] = pressure_count
+            st.session_state.weekly_plan["settings"]["microwave_main_count"] = microwave_main_count
+            st.session_state.weekly_plan["settings"]["microwave_side_count"] = microwave_side_count
             save_plan()
             st.rerun()
 
@@ -326,7 +342,7 @@ with tab1:
         col_yes, col_no = st.columns(2)
         with col_yes:
             if st.button("✅ リセットする", key="reset_plan_yes"):
-                for key in ["main", "side", "soup", "pressure"]:
+                for key in ["main", "side", "soup", "pressure", "microwave_main", "microwave_side"]:
                     st.session_state.weekly_plan["selected_recipes"][key] = []
                 save_plan()
                 st.session_state.pop("confirm_reset_plan", None)
@@ -337,12 +353,18 @@ with tab1:
                 st.session_state.pop("confirm_reset_plan", None)
                 st.rerun()
 
-    render_recipe_slots("main", plan["settings"]["main_count"])
-    render_recipe_slots("side", plan["settings"]["side_count"])
+    _mw_main = plan["settings"].get("microwave_main_count", 0)
+    _mw_side = plan["settings"].get("microwave_side_count", 0)
+    render_recipe_slots("main", plan["settings"]["main_count"] - _mw_main)
+    render_recipe_slots("side", plan["settings"]["side_count"] - _mw_side)
     if plan["settings"]["soup_count"] > 0:
         render_recipe_slots("soup", plan["settings"]["soup_count"])
     if plan["settings"].get("pressure_count", 0) > 0:
         render_recipe_slots("pressure", plan["settings"]["pressure_count"])
+    if _mw_main > 0:
+        render_recipe_slots("microwave_main", _mw_main)
+    if _mw_side > 0:
+        render_recipe_slots("microwave_side", _mw_side)
 
     st.divider()
     st.markdown("### 🥗 今週の栄養サマリー（1人前 / 夕食）")
@@ -1113,6 +1135,12 @@ with tab6:
         with sc4:
             sug_pressure = st.slider("⚡ 圧力鍋", 0, 3, 0, key="sug_pressure")
 
+        smw1, smw2 = st.columns(2)
+        with smw1:
+            sug_mw_main = st.slider("📱 主菜（電子レンジ）", 0, 4, 1, key="sug_mw_main")
+        with smw2:
+            sug_mw_side = st.slider("📱 副菜（電子レンジ）", 0, 4, 1, key="sug_mw_side")
+
     # 特売品リンク（買い出しタブの入力を引用）
     sale_items = st.session_state.get("sale_items", "")
     sale_list = [x.strip() for x in sale_items.split(",") if x.strip()]
@@ -1140,6 +1168,7 @@ with tab6:
             st.session_state["suggestion"] = suggest_recipes(
                 recipes, sug_main, sug_side, sug_soup, must_list, prioritize_fav,
                 random_seed=seed, pressure_count=sug_pressure,
+                microwave_main_count=sug_mw_main, microwave_side_count=sug_mw_side,
             )
     with col_btn2:
         if st.button("🔁 もう一度提案", key="btn_retry", width='stretch'):
@@ -1148,6 +1177,7 @@ with tab6:
             st.session_state["suggestion"] = suggest_recipes(
                 recipes, sug_main, sug_side, sug_soup, must_list, prioritize_fav,
                 random_seed=seed, pressure_count=sug_pressure,
+                microwave_main_count=sug_mw_main, microwave_side_count=sug_mw_side,
             )
 
     suggestion = st.session_state.get("suggestion")
@@ -1155,7 +1185,11 @@ with tab6:
         st.divider()
         st.markdown("### 📋 提案結果")
 
-        for cat_key, cat_label in [("main", "🍖 主菜"), ("side", "🥗 副菜"), ("soup", "🍲 スープ"), ("pressure", "⚡ 圧力鍋")]:
+        for cat_key, cat_label in [
+            ("main", "🍖 主菜"), ("side", "🥗 副菜"), ("soup", "🍲 スープ"),
+            ("pressure", "⚡ 圧力鍋"),
+            ("microwave_main", "📱 主菜（電子レンジ）"), ("microwave_side", "📱 副菜（電子レンジ）"),
+        ]:
             cat_recipes = suggestion.get(cat_key, [])
             if not cat_recipes:
                 continue
@@ -1173,7 +1207,7 @@ with tab6:
 
         # 提案の栄養サマリー
         sug_ids = []
-        for key in ["main", "side", "soup", "pressure"]:
+        for key in ["main", "side", "soup", "pressure", "microwave_main", "microwave_side"]:
             sug_ids.extend([r["id"] for r in suggestion.get(key, [])])
         if sug_ids:
             per_p = calc_nutrition_per_person(sug_ids, recipes)
@@ -1191,10 +1225,14 @@ with tab6:
             plan["settings"]["side_count"] = sug_side
             plan["settings"]["soup_count"] = sug_soup
             plan["settings"]["pressure_count"] = sug_pressure
+            plan["settings"]["microwave_main_count"] = sug_mw_main
+            plan["settings"]["microwave_side_count"] = sug_mw_side
             plan["selected_recipes"]["main"] = [r["id"] for r in suggestion.get("main", [])]
             plan["selected_recipes"]["side"] = [r["id"] for r in suggestion.get("side", [])]
             plan["selected_recipes"]["soup"] = [r["id"] for r in suggestion.get("soup", [])]
             plan["selected_recipes"]["pressure"] = [r["id"] for r in suggestion.get("pressure", [])]
+            plan["selected_recipes"]["microwave_main"] = [r["id"] for r in suggestion.get("microwave_main", [])]
+            plan["selected_recipes"]["microwave_side"] = [r["id"] for r in suggestion.get("microwave_side", [])]
             save_plan()
             st.session_state.pop("suggestion", None)
             st.success("献立を保存しました！「献立」タブで確認できます。")

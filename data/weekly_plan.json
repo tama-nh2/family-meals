@@ -3,7 +3,9 @@
     "main_count": 5,
     "side_count": 5,
     "soup_count": 1,
-    "pressure_count": 0
+    "pressure_count": 0,
+    "microwave_main_count": 1,
+    "microwave_side_count": 1
   },
   "selected_recipes": {
     "main": [
@@ -21,6 +23,8 @@
     "soup": [
       "recipe_015"
     ],
-    "pressure": []
+    "pressure": [],
+    "microwave_main": [],
+    "microwave_side": []
   }
 }

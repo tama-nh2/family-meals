@@ -86,33 +86,46 @@ def suggest_recipes(
     prioritize_favorites: bool,
     random_seed: Optional[int] = None,
     pressure_count: int = 0,
+    microwave_main_count: int = 0,
+    microwave_side_count: int = 0,
 ) -> dict:
     """
     献立を自動提案する。
 
     Returns:
-        {"main": [...], "side": [...], "soup": [...], "pressure": [...]}
+        {"main": [...], "side": [...], "soup": [...], "pressure": [...],
+         "microwave_main": [...], "microwave_side": [...]}
     """
     rng = _random.Random(random_seed)
 
-    # pressure は electric_pressure cooker レシピから選ぶ（主菜カテゴリのみ）
+    # 特殊調理器具（通常プールから除外）
+    SPECIAL_COOKERS = {"electric_pressure", "microwave"}
+
+    # microwave 枠は主菜・副菜の内数なので、通常枠から差し引く
     CATEGORY_MAP = [
-        ("main", "主菜", main_count, False),
-        ("side", "副菜", side_count, False),
-        ("soup", "スープ", soup_count, False),
-        ("pressure", "主菜", pressure_count, True),  # electric_pressure のみ
+        ("main",           "主菜",   main_count - microwave_main_count, "normal"),
+        ("side",           "副菜",   side_count - microwave_side_count, "normal"),
+        ("soup",           "スープ", soup_count,                        "normal"),
+        ("pressure",       "主菜",   pressure_count,                    "electric_pressure"),
+        ("microwave_main", "主菜",   microwave_main_count,              "microwave"),
+        ("microwave_side", "副菜",   microwave_side_count,              "microwave"),
     ]
 
-    result: dict[str, list[dict]] = {"main": [], "side": [], "soup": [], "pressure": []}
+    result: dict[str, list[dict]] = {
+        "main": [], "side": [], "soup": [], "pressure": [],
+        "microwave_main": [], "microwave_side": [],
+    }
 
-    for cat_key, cat_jp, count, pressure_only in CATEGORY_MAP:
-        if count == 0:
+    for cat_key, cat_jp, count, cooker_filter in CATEGORY_MAP:
+        if count <= 0:
             continue
 
-        if pressure_only:
-            pool = [r for r in all_recipes if r["category"] == cat_jp and r.get("cooker") == "electric_pressure"]
+        if cooker_filter == "normal":
+            pool = [r for r in all_recipes
+                    if r["category"] == cat_jp and r.get("cooker", "normal") not in SPECIAL_COOKERS]
         else:
-            pool = [r for r in all_recipes if r["category"] == cat_jp and r.get("cooker", "normal") != "electric_pressure"]
+            pool = [r for r in all_recipes
+                    if r["category"] == cat_jp and r.get("cooker") == cooker_filter]
         if not pool:
             continue
 

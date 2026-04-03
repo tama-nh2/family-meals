@@ -2943,5 +2943,781 @@
     },
     "tags": ["作り置き", "子供OK", "電気圧力鍋", "カルシウム", "定番"],
     "favorite": false
+  },
+  {
+    "id": "recipe_053",
+    "name": "レンジ蒸し鶏のごまだれ",
+    "category": "主菜",
+    "cooker": "microwave",
+    "servings": 3,
+    "batch_servings": 10,
+    "serving_size_adult_g": 80,
+    "serving_size_child_g": 40,
+    "prep_time_min": 10,
+    "cook_time_min": 10,
+    "storage_days": 4,
+    "ingredients": [
+      {"name": "鶏むね肉", "amount": 500, "unit": "g", "category": "肉類"},
+      {"name": "酒", "amount": 2, "unit": "大さじ", "category": "調味料"},
+      {"name": "塩", "amount": 1, "unit": "少々", "category": "調味料"},
+      {"name": "ごまだれ（市販）", "amount": 4, "unit": "大さじ", "category": "調味料"},
+      {"name": "長ねぎ（トッピング用）", "amount": 20, "unit": "g", "category": "野菜類"}
+    ],
+    "steps": [
+      "鶏むね肉をフォークで数か所刺し、酒・塩をもみ込む。",
+      "耐熱皿に乗せてラップをし、600W で 6〜7 分加熱する（厚さによって調整）。",
+      "そのまま 5 分蒸らし、粗熱を取ってから薄切りにする。",
+      "保存容器に入れ、食べるときにごまだれをかける。"
+    ],
+    "nutrition_per_serving": {
+      "calories": 165,
+      "protein_g": 28,
+      "fat_g": 5,
+      "carbs_g": 2,
+      "salt_g": 0.8,
+      "iron_mg": 0.7,
+      "calcium_mg": 12,
+      "folate_ug": 10
+    },
+    "tags": ["作り置き", "子供OK", "電子レンジ", "定番"],
+    "favorite": false
+  },
+  {
+    "id": "recipe_054",
+    "name": "電子レンジ豆腐ハンバーグ",
+    "category": "主菜",
+    "cooker": "microwave",
+    "servings": 3,
+    "batch_servings": 10,
+    "serving_size_adult_g": 80,
+    "serving_size_child_g": 40,
+    "prep_time_min": 15,
+    "cook_time_min": 12,
+    "storage_days": 3,
+    "ingredients": [
+      {"name": "豚ひき肉", "amount": 300, "unit": "g", "category": "肉類"},
+      {"name": "木綿豆腐", "amount": 200, "unit": "g", "category": "大豆製品"},
+      {"name": "玉ねぎ", "amount": 100, "unit": "g", "category": "野菜類"},
+      {"name": "卵", "amount": 1, "unit": "個", "category": "卵類"},
+      {"name": "醤油", "amount": 1, "unit": "大さじ", "category": "調味料"},
+      {"name": "みりん", "amount": 1, "unit": "大さじ", "category": "調味料"},
+      {"name": "片栗粉", "amount": 2, "unit": "大さじ", "category": "調味料"}
+    ],
+    "steps": [
+      "豆腐はキッチンペーパーで水気を切る。玉ねぎはみじん切りにして耐熱容器で 2 分レンジ加熱し冷ます。",
+      "全材料をよく混ぜ、楕円形に成形する。",
+      "耐熱皿に並べてラップをし、600W で 8〜10 分加熱する。",
+      "竹串を刺して透明な汁が出れば完成。粗熱を取って保存容器へ。"
+    ],
+    "nutrition_per_serving": {
+      "calories": 195,
+      "protein_g": 18,
+      "fat_g": 10,
+      "carbs_g": 8,
+      "salt_g": 0.9,
+      "iron_mg": 1.8,
+      "calcium_mg": 65,
+      "folate_ug": 22
+    },
+    "tags": ["作り置き", "子供OK", "電子レンジ", "カルシウム"],
+    "favorite": false
+  },
+  {
+    "id": "recipe_055",
+    "name": "レンジで作る鮭の酒蒸し",
+    "category": "主菜",
+    "cooker": "microwave",
+    "servings": 3,
+    "batch_servings": 10,
+    "serving_size_adult_g": 80,
+    "serving_size_child_g": 40,
+    "prep_time_min": 5,
+    "cook_time_min": 8,
+    "storage_days": 3,
+    "ingredients": [
+      {"name": "生鮭", "amount": 400, "unit": "g", "category": "魚介類"},
+      {"name": "酒", "amount": 3, "unit": "大さじ", "category": "調味料"},
+      {"name": "醤油", "amount": 1, "unit": "大さじ", "category": "調味料"},
+      {"name": "みりん", "amount": 1, "unit": "大さじ", "category": "調味料"},
+      {"name": "長ねぎ", "amount": 30, "unit": "g", "category": "野菜類"},
+      {"name": "生姜（薄切り）", "amount": 10, "unit": "g", "category": "野菜類"}
+    ],
+    "steps": [
+      "鮭を一口大に切る。",
+      "耐熱容器に鮭・ねぎ・生姜を並べ、調味料を回しかける。",
+      "ラップをして 600W で 5〜6 分加熱する。",
+      "そのまま 2 分蒸らして完成。粗熱を取り保存容器へ。"
+    ],
+    "nutrition_per_serving": {
+      "calories": 155,
+      "protein_g": 22,
+      "fat_g": 6,
+      "carbs_g": 3,
+      "salt_g": 0.9,
+      "iron_mg": 0.5,
+      "calcium_mg": 20,
+      "folate_ug": 18
+    },
+    "tags": ["作り置き", "子供OK", "電子レンジ"],
+    "favorite": false
+  },
+  {
+    "id": "recipe_056",
+    "name": "電子レンジ豚の旨煮（大根入り）",
+    "category": "主菜",
+    "cooker": "microwave",
+    "servings": 3,
+    "batch_servings": 10,
+    "serving_size_adult_g": 100,
+    "serving_size_child_g": 50,
+    "prep_time_min": 10,
+    "cook_time_min": 15,
+    "storage_days": 4,
+    "ingredients": [
+      {"name": "豚こま切れ肉", "amount": 350, "unit": "g", "category": "肉類"},
+      {"name": "大根", "amount": 300, "unit": "g", "category": "野菜類"},
+      {"name": "醤油", "amount": 3, "unit": "大さじ", "category": "調味料"},
+      {"name": "みりん", "amount": 2, "unit": "大さじ", "category": "調味料"},
+      {"name": "砂糖", "amount": 1, "unit": "大さじ", "category": "調味料"},
+      {"name": "生姜（すりおろし）", "amount": 5, "unit": "g", "category": "野菜類"},
+      {"name": "水", "amount": 100, "unit": "ml", "category": "その他"}
+    ],
+    "steps": [
+      "大根は 2cm 厚さのいちょう切りにする。",
+      "大きめの耐熱容器に大根・豚肉・調味料・水を入れてよく混ぜる。",
+      "ラップをして 600W で 10 分加熱し、一度混ぜて再度 5 分加熱する。",
+      "粗熱を取り保存容器へ移す。"
+    ],
+    "nutrition_per_serving": {
+      "calories": 200,
+      "protein_g": 18,
+      "fat_g": 9,
+      "carbs_g": 10,
+      "salt_g": 1.2,
+      "iron_mg": 1.2,
+      "calcium_mg": 18,
+      "folate_ug": 15
+    },
+    "tags": ["作り置き", "子供OK", "電子レンジ", "定番"],
+    "favorite": false
+  },
+  {
+    "id": "recipe_057",
+    "name": "レンジ蒸し鶏と野菜のポン酢和え",
+    "category": "主菜",
+    "cooker": "microwave",
+    "servings": 3,
+    "batch_servings": 10,
+    "serving_size_adult_g": 80,
+    "serving_size_child_g": 40,
+    "prep_time_min": 10,
+    "cook_time_min": 10,
+    "storage_days": 3,
+    "ingredients": [
+      {"name": "鶏もも肉", "amount": 400, "unit": "g", "category": "肉類"},
+      {"name": "もやし", "amount": 150, "unit": "g", "category": "野菜類"},
+      {"name": "にんじん", "amount": 80, "unit": "g", "category": "野菜類"},
+      {"name": "酒", "amount": 2, "unit": "大さじ", "category": "調味料"},
+      {"name": "ポン酢醤油", "amount": 3, "unit": "大さじ", "category": "調味料"},
+      {"name": "ごま油", "amount": 1, "unit": "小さじ", "category": "調味料"}
+    ],
+    "steps": [
+      "にんじんは細切りにする。",
+      "耐熱容器に鶏もも肉・にんじん・もやしを入れ、酒をふる。",
+      "ラップをして 600W で 8〜9 分加熱する。",
+      "粗熱を取り、食べやすくほぐしてポン酢・ごま油で和える。保存容器へ。"
+    ],
+    "nutrition_per_serving": {
+      "calories": 175,
+      "protein_g": 20,
+      "fat_g": 8,
+      "carbs_g": 5,
+      "salt_g": 1.0,
+      "iron_mg": 1.0,
+      "calcium_mg": 22,
+      "folate_ug": 28
+    },
+    "tags": ["作り置き", "子供OK", "電子レンジ"],
+    "favorite": false
+  },
+  {
+    "id": "recipe_058",
+    "name": "電子レンジ麻婆豆腐（辛味なし）",
+    "category": "主菜",
+    "cooker": "microwave",
+    "servings": 3,
+    "batch_servings": 10,
+    "serving_size_adult_g": 120,
+    "serving_size_child_g": 60,
+    "prep_time_min": 10,
+    "cook_time_min": 10,
+    "storage_days": 3,
+    "ingredients": [
+      {"name": "絹ごし豆腐", "amount": 400, "unit": "g", "category": "大豆製品"},
+      {"name": "豚ひき肉", "amount": 200, "unit": "g", "category": "肉類"},
+      {"name": "長ねぎ", "amount": 40, "unit": "g", "category": "野菜類"},
+      {"name": "醤油", "amount": 2, "unit": "大さじ", "category": "調味料"},
+      {"name": "みりん", "amount": 1, "unit": "大さじ", "category": "調味料"},
+      {"name": "鶏ガラスープの素", "amount": 1, "unit": "小さじ", "category": "調味料"},
+      {"name": "片栗粉", "amount": 2, "unit": "大さじ", "category": "調味料"},
+      {"name": "水", "amount": 150, "unit": "ml", "category": "その他"},
+      {"name": "ごま油", "amount": 1, "unit": "小さじ", "category": "調味料"}
+    ],
+    "steps": [
+      "豆腐は 2cm 角に切り水気を切る。長ねぎはみじん切りにする。",
+      "耐熱容器にひき肉・ねぎを入れて混ぜ、ラップなしで 600W で 3 分加熱してほぐす。",
+      "豆腐・水・調味料を加え混ぜ、ラップをして再度 5 分加熱する。",
+      "片栗粉を水で溶いて加え、よく混ぜてラップなしで 2 分加熱しとろみをつける。ごま油を回しかける。"
+    ],
+    "nutrition_per_serving": {
+      "calories": 180,
+      "protein_g": 16,
+      "fat_g": 9,
+      "carbs_g": 8,
+      "salt_g": 1.1,
+      "iron_mg": 2.2,
+      "calcium_mg": 90,
+      "folate_ug": 35
+    },
+    "tags": ["作り置き", "子供OK", "電子レンジ", "カルシウム", "鉄分"],
+    "favorite": false
+  },
+  {
+    "id": "recipe_059",
+    "name": "レンジで作るブリの照り焼き",
+    "category": "主菜",
+    "cooker": "microwave",
+    "servings": 3,
+    "batch_servings": 10,
+    "serving_size_adult_g": 80,
+    "serving_size_child_g": 40,
+    "prep_time_min": 5,
+    "cook_time_min": 8,
+    "storage_days": 3,
+    "ingredients": [
+      {"name": "ブリ", "amount": 400, "unit": "g", "category": "魚介類"},
+      {"name": "醤油", "amount": 2, "unit": "大さじ", "category": "調味料"},
+      {"name": "みりん", "amount": 2, "unit": "大さじ", "category": "調味料"},
+      {"name": "砂糖", "amount": 1, "unit": "小さじ", "category": "調味料"},
+      {"name": "酒", "amount": 1, "unit": "大さじ", "category": "調味料"}
+    ],
+    "steps": [
+      "ブリは一口大に切る。",
+      "耐熱容器に醤油・みりん・砂糖・酒を混ぜ、ブリを漬けて 10 分置く。",
+      "ラップをして 600W で 5〜6 分加熱する。",
+      "粗熱を取り保存容器へ移す。"
+    ],
+    "nutrition_per_serving": {
+      "calories": 200,
+      "protein_g": 22,
+      "fat_g": 9,
+      "carbs_g": 6,
+      "salt_g": 1.1,
+      "iron_mg": 1.4,
+      "calcium_mg": 15,
+      "folate_ug": 8
+    },
+    "tags": ["作り置き", "子供OK", "電子レンジ", "定番"],
+    "favorite": false
+  },
+  {
+    "id": "recipe_060",
+    "name": "電子レンジ鶏もも肉のしょうが醤油蒸し",
+    "category": "主菜",
+    "cooker": "microwave",
+    "servings": 3,
+    "batch_servings": 10,
+    "serving_size_adult_g": 80,
+    "serving_size_child_g": 40,
+    "prep_time_min": 10,
+    "cook_time_min": 10,
+    "storage_days": 4,
+    "ingredients": [
+      {"name": "鶏もも肉", "amount": 450, "unit": "g", "category": "肉類"},
+      {"name": "醤油", "amount": 2, "unit": "大さじ", "category": "調味料"},
+      {"name": "みりん", "amount": 1, "unit": "大さじ", "category": "調味料"},
+      {"name": "酒", "amount": 1, "unit": "大さじ", "category": "調味料"},
+      {"name": "生姜（すりおろし）", "amount": 10, "unit": "g", "category": "野菜類"},
+      {"name": "長ねぎ", "amount": 30, "unit": "g", "category": "野菜類"}
+    ],
+    "steps": [
+      "鶏もも肉を一口大に切り、調味料・生姜でもみ込む。",
+      "耐熱容器に肉・ねぎを入れ、ラップをして 600W で 7〜8 分加熱する。",
+      "一度混ぜて再度 2 分加熱し、火が通ったことを確認する。",
+      "粗熱を取り保存容器へ移す。"
+    ],
+    "nutrition_per_serving": {
+      "calories": 210,
+      "protein_g": 22,
+      "fat_g": 11,
+      "carbs_g": 4,
+      "salt_g": 1.1,
+      "iron_mg": 1.0,
+      "calcium_mg": 14,
+      "folate_ug": 12
+    },
+    "tags": ["作り置き", "子供OK", "電子レンジ", "定番"],
+    "favorite": false
+  },
+  {
+    "id": "recipe_061",
+    "name": "レンジで作るひき肉と豆腐の和風あんかけ",
+    "category": "主菜",
+    "cooker": "microwave",
+    "servings": 3,
+    "batch_servings": 10,
+    "serving_size_adult_g": 120,
+    "serving_size_child_g": 60,
+    "prep_time_min": 10,
+    "cook_time_min": 12,
+    "storage_days": 3,
+    "ingredients": [
+      {"name": "鶏ひき肉", "amount": 250, "unit": "g", "category": "肉類"},
+      {"name": "絹ごし豆腐", "amount": 300, "unit": "g", "category": "大豆製品"},
+      {"name": "にんじん", "amount": 60, "unit": "g", "category": "野菜類"},
+      {"name": "しいたけ", "amount": 60, "unit": "g", "category": "きのこ類"},
+      {"name": "醤油", "amount": 2, "unit": "大さじ", "category": "調味料"},
+      {"name": "みりん", "amount": 2, "unit": "大さじ", "category": "調味料"},
+      {"name": "だし汁", "amount": 150, "unit": "ml", "category": "調味料"},
+      {"name": "片栗粉", "amount": 2, "unit": "大さじ", "category": "調味料"}
+    ],
+    "steps": [
+      "豆腐は水気を切り 2cm 角に切る。にんじん・しいたけはみじん切りにする。",
+      "耐熱容器にひき肉・にんじん・しいたけを入れ混ぜ、600W で 3 分加熱してほぐす。",
+      "だし汁・醤油・みりんを加え豆腐をそっと入れ、ラップをして 6 分加熱する。",
+      "片栗粉を同量の水で溶いて加え混ぜ、ラップなしで 2 分加熱しとろみをつける。"
+    ],
+    "nutrition_per_serving": {
+      "calories": 170,
+      "protein_g": 18,
+      "fat_g": 7,
+      "carbs_g": 9,
+      "salt_g": 1.0,
+      "iron_mg": 2.5,
+      "calcium_mg": 100,
+      "folate_ug": 40
+    },
+    "tags": ["作り置き", "子供OK", "電子レンジ", "カルシウム", "鉄分"],
+    "favorite": false
+  },
+  {
+    "id": "recipe_062",
+    "name": "電子レンジ白身魚の蒸し物",
+    "category": "主菜",
+    "cooker": "microwave",
+    "servings": 3,
+    "batch_servings": 10,
+    "serving_size_adult_g": 80,
+    "serving_size_child_g": 40,
+    "prep_time_min": 5,
+    "cook_time_min": 8,
+    "storage_days": 3,
+    "ingredients": [
+      {"name": "タラ（または白身魚）", "amount": 400, "unit": "g", "category": "魚介類"},
+      {"name": "酒", "amount": 2, "unit": "大さじ", "category": "調味料"},
+      {"name": "醤油", "amount": 1, "unit": "大さじ", "category": "調味料"},
+      {"name": "みりん", "amount": 1, "unit": "大さじ", "category": "調味料"},
+      {"name": "長ねぎ", "amount": 30, "unit": "g", "category": "野菜類"},
+      {"name": "生姜（薄切り）", "amount": 10, "unit": "g", "category": "野菜類"}
+    ],
+    "steps": [
+      "タラは一切れずつ耐熱皿に並べ、酒・醤油・みりんを回しかける。",
+      "薄切り生姜と長ねぎを上に乗せ、ラップをして 600W で 5〜6 分加熱する。",
+      "2 分蒸らして完成。粗熱を取り保存容器へ。"
+    ],
+    "nutrition_per_serving": {
+      "calories": 110,
+      "protein_g": 20,
+      "fat_g": 1,
+      "carbs_g": 3,
+      "salt_g": 0.8,
+      "iron_mg": 0.4,
+      "calcium_mg": 25,
+      "folate_ug": 10
+    },
+    "tags": ["作り置き", "子供OK", "電子レンジ"],
+    "favorite": false
+  },
+  {
+    "id": "recipe_063",
+    "name": "電子レンジほうれん草のごま和え",
+    "category": "副菜",
+    "cooker": "microwave",
+    "servings": 3,
+    "batch_servings": 10,
+    "serving_size_adult_g": 60,
+    "serving_size_child_g": 30,
+    "prep_time_min": 5,
+    "cook_time_min": 5,
+    "storage_days": 3,
+    "ingredients": [
+      {"name": "ほうれん草", "amount": 300, "unit": "g", "category": "野菜類"},
+      {"name": "すりごま", "amount": 2, "unit": "大さじ", "category": "調味料"},
+      {"name": "醤油", "amount": 1, "unit": "大さじ", "category": "調味料"},
+      {"name": "砂糖", "amount": 1, "unit": "小さじ", "category": "調味料"},
+      {"name": "みりん", "amount": 1, "unit": "小さじ", "category": "調味料"}
+    ],
+    "steps": [
+      "ほうれん草を洗い、耐熱容器に入れてラップをし 600W で 3 分加熱する。",
+      "冷水にさらして水気をよく絞り、4cm 幅に切る。",
+      "すりごま・醤油・砂糖・みりんを混ぜ、ほうれん草と和える。",
+      "保存容器に移す。"
+    ],
+    "nutrition_per_serving": {
+      "calories": 55,
+      "protein_g": 4,
+      "fat_g": 2,
+      "carbs_g": 5,
+      "salt_g": 0.5,
+      "iron_mg": 2.8,
+      "calcium_mg": 70,
+      "folate_ug": 110
+    },
+    "tags": ["作り置き", "子供OK", "電子レンジ", "鉄分", "葉酸"],
+    "favorite": false
+  },
+  {
+    "id": "recipe_064",
+    "name": "レンジで作るかぼちゃの煮物",
+    "category": "副菜",
+    "cooker": "microwave",
+    "servings": 3,
+    "batch_servings": 10,
+    "serving_size_adult_g": 80,
+    "serving_size_child_g": 40,
+    "prep_time_min": 5,
+    "cook_time_min": 8,
+    "storage_days": 4,
+    "ingredients": [
+      {"name": "かぼちゃ", "amount": 400, "unit": "g", "category": "野菜類"},
+      {"name": "醤油", "amount": 2, "unit": "大さじ", "category": "調味料"},
+      {"name": "みりん", "amount": 2, "unit": "大さじ", "category": "調味料"},
+      {"name": "砂糖", "amount": 1, "unit": "大さじ", "category": "調味料"},
+      {"name": "水", "amount": 50, "unit": "ml", "category": "その他"}
+    ],
+    "steps": [
+      "かぼちゃは 3cm 角に切る（皮ごとでよい）。",
+      "耐熱容器に調味料と水を混ぜ、かぼちゃを入れてラップをする。",
+      "600W で 6〜7 分加熱し、一度混ぜて 2 分追加加熱する。",
+      "粗熱を取り保存容器へ移す。"
+    ],
+    "nutrition_per_serving": {
+      "calories": 90,
+      "protein_g": 2,
+      "fat_g": 0,
+      "carbs_g": 20,
+      "salt_g": 0.7,
+      "iron_mg": 0.4,
+      "calcium_mg": 20,
+      "folate_ug": 55
+    },
+    "tags": ["作り置き", "子供OK", "電子レンジ", "定番"],
+    "favorite": false
+  },
+  {
+    "id": "recipe_065",
+    "name": "電子レンジなすの煮浸し",
+    "category": "副菜",
+    "cooker": "microwave",
+    "servings": 3,
+    "batch_servings": 10,
+    "serving_size_adult_g": 80,
+    "serving_size_child_g": 40,
+    "prep_time_min": 5,
+    "cook_time_min": 8,
+    "storage_days": 3,
+    "ingredients": [
+      {"name": "なす", "amount": 400, "unit": "g", "category": "野菜類"},
+      {"name": "だし汁", "amount": 100, "unit": "ml", "category": "調味料"},
+      {"name": "醤油", "amount": 2, "unit": "大さじ", "category": "調味料"},
+      {"name": "みりん", "amount": 2, "unit": "大さじ", "category": "調味料"},
+      {"name": "ごま油", "amount": 1, "unit": "小さじ", "category": "調味料"}
+    ],
+    "steps": [
+      "なすは縦半分に切り、皮に細かく切り込みを入れ 2cm 幅に切る。",
+      "耐熱容器になす・だし汁・醤油・みりんを入れ、ラップをして 600W で 6 分加熱する。",
+      "一度混ぜてそのまま冷ます（漬けておくほど味が染みる）。",
+      "ごま油を加えて保存容器へ。"
+    ],
+    "nutrition_per_serving": {
+      "calories": 55,
+      "protein_g": 2,
+      "fat_g": 1,
+      "carbs_g": 9,
+      "salt_g": 0.8,
+      "iron_mg": 0.3,
+      "calcium_mg": 16,
+      "folate_ug": 18
+    },
+    "tags": ["作り置き", "子供OK", "電子レンジ", "定番"],
+    "favorite": false
+  },
+  {
+    "id": "recipe_066",
+    "name": "レンジで作る人参のグラッセ",
+    "category": "副菜",
+    "cooker": "microwave",
+    "servings": 3,
+    "batch_servings": 10,
+    "serving_size_adult_g": 60,
+    "serving_size_child_g": 30,
+    "prep_time_min": 5,
+    "cook_time_min": 7,
+    "storage_days": 4,
+    "ingredients": [
+      {"name": "にんじん", "amount": 300, "unit": "g", "category": "野菜類"},
+      {"name": "バター", "amount": 10, "unit": "g", "category": "乳製品"},
+      {"name": "砂糖", "amount": 2, "unit": "小さじ", "category": "調味料"},
+      {"name": "塩", "amount": 1, "unit": "少々", "category": "調味料"},
+      {"name": "水", "amount": 30, "unit": "ml", "category": "その他"}
+    ],
+    "steps": [
+      "にんじんは 1cm 厚さの輪切りにし、好みで面取りする。",
+      "耐熱容器ににんじん・水・砂糖・塩・バターを入れ、ラップをして 600W で 5〜6 分加熱する。",
+      "一度混ぜて軽く煮詰めるように追加 1 分加熱する。",
+      "粗熱を取り保存容器へ移す。"
+    ],
+    "nutrition_per_serving": {
+      "calories": 60,
+      "protein_g": 1,
+      "fat_g": 2,
+      "carbs_g": 10,
+      "salt_g": 0.2,
+      "iron_mg": 0.3,
+      "calcium_mg": 20,
+      "folate_ug": 20
+    },
+    "tags": ["作り置き", "子供OK", "電子レンジ", "定番"],
+    "favorite": false
+  },
+  {
+    "id": "recipe_067",
+    "name": "電子レンジブロッコリーの和え物",
+    "category": "副菜",
+    "cooker": "microwave",
+    "servings": 3,
+    "batch_servings": 10,
+    "serving_size_adult_g": 60,
+    "serving_size_child_g": 30,
+    "prep_time_min": 5,
+    "cook_time_min": 5,
+    "storage_days": 3,
+    "ingredients": [
+      {"name": "ブロッコリー", "amount": 300, "unit": "g", "category": "野菜類"},
+      {"name": "ツナ缶（水煮）", "amount": 70, "unit": "g", "category": "魚介類"},
+      {"name": "マヨネーズ", "amount": 2, "unit": "大さじ", "category": "調味料"},
+      {"name": "醤油", "amount": 1, "unit": "小さじ", "category": "調味料"}
+    ],
+    "steps": [
+      "ブロッコリーは小房に分け、耐熱容器に入れて大さじ 1 の水を加える。",
+      "ラップをして 600W で 3 分加熱し、ざるに上げて水気を切る。",
+      "ツナ缶の汁を切り、マヨネーズ・醤油と和える。",
+      "保存容器へ移す。"
+    ],
+    "nutrition_per_serving": {
+      "calories": 80,
+      "protein_g": 7,
+      "fat_g": 4,
+      "carbs_g": 4,
+      "salt_g": 0.5,
+      "iron_mg": 0.8,
+      "calcium_mg": 38,
+      "folate_ug": 95
+    },
+    "tags": ["作り置き", "子供OK", "電子レンジ", "葉酸"],
+    "favorite": false
+  },
+  {
+    "id": "recipe_068",
+    "name": "レンジで作る白菜の煮びたし",
+    "category": "副菜",
+    "cooker": "microwave",
+    "servings": 3,
+    "batch_servings": 10,
+    "serving_size_adult_g": 100,
+    "serving_size_child_g": 50,
+    "prep_time_min": 5,
+    "cook_time_min": 8,
+    "storage_days": 3,
+    "ingredients": [
+      {"name": "白菜", "amount": 500, "unit": "g", "category": "野菜類"},
+      {"name": "だし汁", "amount": 150, "unit": "ml", "category": "調味料"},
+      {"name": "醤油", "amount": 2, "unit": "大さじ", "category": "調味料"},
+      {"name": "みりん", "amount": 2, "unit": "大さじ", "category": "調味料"},
+      {"name": "薄揚げ", "amount": 50, "unit": "g", "category": "大豆製品"}
+    ],
+    "steps": [
+      "白菜は 4cm 幅のざく切り。薄揚げは油抜きして細切りにする。",
+      "耐熱容器に全材料を入れ、ラップをして 600W で 7〜8 分加熱する。",
+      "混ぜてさらに 2 分加熱し、白菜がしんなりしたら完成。",
+      "粗熱を取り保存容器へ移す。"
+    ],
+    "nutrition_per_serving": {
+      "calories": 65,
+      "protein_g": 4,
+      "fat_g": 2,
+      "carbs_g": 7,
+      "salt_g": 0.8,
+      "iron_mg": 0.8,
+      "calcium_mg": 65,
+      "folate_ug": 42
+    },
+    "tags": ["作り置き", "子供OK", "電子レンジ", "カルシウム"],
+    "favorite": false
+  },
+  {
+    "id": "recipe_069",
+    "name": "電子レンジじゃがいもの煮物",
+    "category": "副菜",
+    "cooker": "microwave",
+    "servings": 3,
+    "batch_servings": 10,
+    "serving_size_adult_g": 80,
+    "serving_size_child_g": 40,
+    "prep_time_min": 5,
+    "cook_time_min": 10,
+    "storage_days": 3,
+    "ingredients": [
+      {"name": "じゃがいも", "amount": 400, "unit": "g", "category": "野菜類"},
+      {"name": "玉ねぎ", "amount": 100, "unit": "g", "category": "野菜類"},
+      {"name": "醤油", "amount": 2, "unit": "大さじ", "category": "調味料"},
+      {"name": "みりん", "amount": 2, "unit": "大さじ", "category": "調味料"},
+      {"name": "砂糖", "amount": 1, "unit": "大さじ", "category": "調味料"},
+      {"name": "水", "amount": 80, "unit": "ml", "category": "その他"}
+    ],
+    "steps": [
+      "じゃがいもは一口大、玉ねぎは薄切りにする。",
+      "耐熱容器に全材料を入れ、ラップをして 600W で 8 分加熱する。",
+      "混ぜて 2〜3 分追加加熱し、じゃがいもに竹串がスッと通れば完成。",
+      "粗熱を取り保存容器へ移す。"
+    ],
+    "nutrition_per_serving": {
+      "calories": 100,
+      "protein_g": 2,
+      "fat_g": 0,
+      "carbs_g": 22,
+      "salt_g": 0.8,
+      "iron_mg": 0.4,
+      "calcium_mg": 10,
+      "folate_ug": 22
+    },
+    "tags": ["作り置き", "子供OK", "電子レンジ", "定番"],
+    "favorite": false
+  },
+  {
+    "id": "recipe_070",
+    "name": "レンジで作る小松菜のおひたし",
+    "category": "副菜",
+    "cooker": "microwave",
+    "servings": 3,
+    "batch_servings": 10,
+    "serving_size_adult_g": 60,
+    "serving_size_child_g": 30,
+    "prep_time_min": 5,
+    "cook_time_min": 4,
+    "storage_days": 3,
+    "ingredients": [
+      {"name": "小松菜", "amount": 300, "unit": "g", "category": "野菜類"},
+      {"name": "だし汁", "amount": 50, "unit": "ml", "category": "調味料"},
+      {"name": "醤油", "amount": 1, "unit": "大さじ", "category": "調味料"},
+      {"name": "みりん", "amount": 1, "unit": "小さじ", "category": "調味料"},
+      {"name": "かつお節", "amount": 3, "unit": "g", "category": "魚介類"}
+    ],
+    "steps": [
+      "小松菜は 4cm 幅に切り、耐熱容器に入れる。",
+      "ラップをして 600W で 3 分加熱し、水気を絞る。",
+      "だし汁・醤油・みりんを混ぜて和え、かつお節をかける。",
+      "保存容器へ移す。"
+    ],
+    "nutrition_per_serving": {
+      "calories": 30,
+      "protein_g": 3,
+      "fat_g": 0,
+      "carbs_g": 3,
+      "salt_g": 0.5,
+      "iron_mg": 2.5,
+      "calcium_mg": 130,
+      "folate_ug": 95
+    },
+    "tags": ["作り置き", "子供OK", "電子レンジ", "鉄分", "カルシウム", "葉酸"],
+    "favorite": false
+  },
+  {
+    "id": "recipe_071",
+    "name": "電子レンジさつまいもの甘煮",
+    "category": "副菜",
+    "cooker": "microwave",
+    "servings": 3,
+    "batch_servings": 10,
+    "serving_size_adult_g": 80,
+    "serving_size_child_g": 40,
+    "prep_time_min": 5,
+    "cook_time_min": 8,
+    "storage_days": 4,
+    "ingredients": [
+      {"name": "さつまいも", "amount": 400, "unit": "g", "category": "野菜類"},
+      {"name": "砂糖", "amount": 2, "unit": "大さじ", "category": "調味料"},
+      {"name": "醤油", "amount": 1, "unit": "小さじ", "category": "調味料"},
+      {"name": "水", "amount": 50, "unit": "ml", "category": "その他"},
+      {"name": "バター", "amount": 5, "unit": "g", "category": "乳製品"},
+      {"name": "黒ごま", "amount": 3, "unit": "g", "category": "調味料"}
+    ],
+    "steps": [
+      "さつまいもは 2cm 幅の輪切りにして水にさらす。",
+      "耐熱容器に水気を切ったさつまいも・砂糖・醤油・水を入れ、ラップをして 600W で 6〜7 分加熱する。",
+      "バターを加えて混ぜ、黒ごまをかける。",
+      "粗熱を取り保存容器へ移す。"
+    ],
+    "nutrition_per_serving": {
+      "calories": 115,
+      "protein_g": 1,
+      "fat_g": 1,
+      "carbs_g": 26,
+      "salt_g": 0.2,
+      "iron_mg": 0.5,
+      "calcium_mg": 30,
+      "folate_ug": 35
+    },
+    "tags": ["作り置き", "子供OK", "電子レンジ", "定番"],
+    "favorite": false
+  },
+  {
+    "id": "recipe_072",
+    "name": "レンジで作るもやしのナムル風",
+    "category": "副菜",
+    "cooker": "microwave",
+    "servings": 3,
+    "batch_servings": 10,
+    "serving_size_adult_g": 60,
+    "serving_size_child_g": 30,
+    "prep_time_min": 5,
+    "cook_time_min": 4,
+    "storage_days": 3,
+    "ingredients": [
+      {"name": "もやし", "amount": 300, "unit": "g", "category": "野菜類"},
+      {"name": "にんじん", "amount": 60, "unit": "g", "category": "野菜類"},
+      {"name": "ごま油", "amount": 1, "unit": "大さじ", "category": "調味料"},
+      {"name": "醤油", "amount": 1, "unit": "大さじ", "category": "調味料"},
+      {"name": "塩", "amount": 1, "unit": "少々", "category": "調味料"},
+      {"name": "白ごま", "amount": 3, "unit": "g", "category": "調味料"}
+    ],
+    "steps": [
+      "にんじんは千切りにする。",
+      "耐熱容器にもやし・にんじんを入れ、ラップをして 600W で 3 分加熱する。",
+      "水気を絞り、ごま油・醤油・塩・白ごまで和える。",
+      "保存容器へ移す。"
+    ],
+    "nutrition_per_serving": {
+      "calories": 50,
+      "protein_g": 2,
+      "fat_g": 2,
+      "carbs_g": 5,
+      "salt_g": 0.5,
+      "iron_mg": 0.4,
+      "calcium_mg": 12,
+      "folate_ug": 40
+    },
+    "tags": ["作り置き", "子供OK", "電子レンジ"],
+    "favorite": false
   }
 ]
