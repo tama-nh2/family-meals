@@ -539,7 +539,7 @@ with tab2:
                         display_amount = str(amount)
                     ing_data.append({"食材": ing["name"], "量": f"{display_amount} {unit}", "分類": ing.get("category", "")})
                 if ing_data:
-                    st.dataframe(pd.DataFrame(ing_data), hide_index=True, use_container_width=True)
+                    st.dataframe(pd.DataFrame(ing_data), hide_index=True, width='stretch')
 
                 st.markdown("**調理手順**")
                 for j, step in enumerate(recipe["steps"], 1):
@@ -559,7 +559,7 @@ with tab2:
                         "妻目標(夕食)": f"{pregnancy_dinner.get(key, 0):.1f}",
                         "子供目標(夕食)": f"{child_dinner.get(key, 0):.1f}",
                     })
-                st.dataframe(pd.DataFrame(nutr_rows), hide_index=True, use_container_width=True)
+                st.dataframe(pd.DataFrame(nutr_rows), hide_index=True, width='stretch')
 
                 tags = " ".join([f"`{t}`" for t in recipe.get("tags", [])])
                 st.markdown(f"**タグ:** {tags}")
@@ -632,7 +632,7 @@ with tab2:
             st.markdown("**推定栄養成分（1人前）**")
             ks = ["calories", "protein_g", "fat_g", "carbs_g", "salt_g", "iron_mg", "calcium_mg", "folate_ug"]
             e_rows = [{"栄養素": f"{get_nutrient_label(k)}（{get_nutrient_unit(k)}）", "推定値": f"{estimated.get(k, 0):.1f}"} for k in ks]
-            st.dataframe(pd.DataFrame(e_rows), hide_index=True, use_container_width=True)
+            st.dataframe(pd.DataFrame(e_rows), hide_index=True, width='stretch')
 
         with col_save:
             if st.button("💾 レシピを保存", key="nr_save_btn"):
@@ -1010,7 +1010,7 @@ with tab4:
                 st.progress(bar_val)
 
     st.divider()
-    if st.button("💾 今日の記録を保存", key="save_meal_log", use_container_width=True):
+    if st.button("💾 今日の記録を保存", key="save_meal_log", width='stretch'):
         log = load_daily_log()
         if today_str not in log:
             log[today_str] = {}
@@ -1095,7 +1095,7 @@ with tab5:
                 "夫目標": f"{h_t:.1f}",
                 "夫充足率": f"{val/h_t*100:.0f}%" if h_t > 0 else "-",
             })
-        st.dataframe(pd.DataFrame(rows), hide_index=True, use_container_width=True)
+        st.dataframe(pd.DataFrame(rows), hide_index=True, width='stretch')
 
 
 # ========== Tab 6: 献立を提案 ==========
@@ -1134,7 +1134,7 @@ with tab6:
 
     col_btn1, col_btn2 = st.columns(2)
     with col_btn1:
-        if st.button("🔀 提案する", key="btn_suggest", use_container_width=True):
+        if st.button("🔀 提案する", key="btn_suggest", width='stretch'):
             seed = random.randint(0, 99999)
             st.session_state["suggestion_seed"] = seed
             st.session_state["suggestion"] = suggest_recipes(
@@ -1142,7 +1142,7 @@ with tab6:
                 random_seed=seed, pressure_count=sug_pressure,
             )
     with col_btn2:
-        if st.button("🔁 もう一度提案", key="btn_retry", use_container_width=True):
+        if st.button("🔁 もう一度提案", key="btn_retry", width='stretch'):
             seed = random.randint(0, 99999)
             st.session_state["suggestion_seed"] = seed
             st.session_state["suggestion"] = suggest_recipes(
@@ -1185,7 +1185,7 @@ with tab6:
                 render_nutrition_bars("👦 子供", get_child_dinner_targets(), per_p, CHILD_DAILY)
 
         st.divider()
-        if st.button("✅ この献立で決定する", key="btn_decide", use_container_width=True):
+        if st.button("✅ この献立で決定する", key="btn_decide", width='stretch'):
             plan = st.session_state.weekly_plan
             plan["settings"]["main_count"] = sug_main
             plan["settings"]["side_count"] = sug_side
