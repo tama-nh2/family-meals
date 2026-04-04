@@ -1141,6 +1141,15 @@ with tab6:
         with smw2:
             sug_mw_side = st.slider("📱 副菜（電子レンジ）", 0, 4, 1, key="sug_mw_side")
 
+    with st.expander("⚙️ 提案の詳細設定"):
+        sug_nutrition = st.checkbox("栄養バランス考慮", value=True, key="sug_nutrition")
+        sug_time_limit = st.checkbox("調理時間制限", value=True, key="sug_time_limit")
+        if sug_time_limit:
+            sug_time_hours = st.slider("最大調理時間（時間）", 1, 6, 2, key="sug_time_hours")
+        else:
+            sug_time_hours = 6
+        sug_allow_overlap = st.checkbox("食材重複を許容", value=False, key="sug_allow_overlap")
+
     # 特売品リンク（買い出しタブの入力を引用）
     sale_items = st.session_state.get("sale_items", "")
     sale_list = [x.strip() for x in sale_items.split(",") if x.strip()]
@@ -1169,6 +1178,10 @@ with tab6:
                 recipes, sug_main, sug_side, sug_soup, must_list, prioritize_fav,
                 random_seed=seed, pressure_count=sug_pressure,
                 microwave_main_count=sug_mw_main, microwave_side_count=sug_mw_side,
+                consider_nutrition=sug_nutrition,
+                time_limit_enabled=sug_time_limit,
+                time_limit_min=sug_time_hours * 60,
+                allow_ingredient_overlap=sug_allow_overlap,
             )
     with col_btn2:
         if st.button("🔁 もう一度提案", key="btn_retry", width='stretch'):
@@ -1178,6 +1191,10 @@ with tab6:
                 recipes, sug_main, sug_side, sug_soup, must_list, prioritize_fav,
                 random_seed=seed, pressure_count=sug_pressure,
                 microwave_main_count=sug_mw_main, microwave_side_count=sug_mw_side,
+                consider_nutrition=sug_nutrition,
+                time_limit_enabled=sug_time_limit,
+                time_limit_min=sug_time_hours * 60,
+                allow_ingredient_overlap=sug_allow_overlap,
             )
 
     suggestion = st.session_state.get("suggestion")

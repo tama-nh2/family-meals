@@ -14,12 +14,13 @@ def _score_recipe(
     recipe: dict,
     must_ingredients: list[str],
     prioritize_favorites: bool,
+    consider_nutrition: bool = True,
 ) -> float:
     """
     レシピのスコアを計算する。
     - マスト食材1品ごとに +10
     - お気に入り優先モードでfavoriteなら +5
-    - 妊婦向け栄養ボーナス：鉄>=2.0→+3、葉酸>=50→+2、カルシウム>=80→+2
+    - consider_nutrition=True のとき妊婦向け栄養ボーナス：鉄>=2.0→+3、葉酸>=50→+2、カルシウム>=80→+2
     """
     score = 0.0
     ingredient_names = {ing["name"] for ing in recipe.get("ingredients", [])}
@@ -34,13 +35,14 @@ def _score_recipe(
     if prioritize_favorites and recipe.get("favorite", False):
         score += 5
 
-    n = recipe.get("nutrition_per_serving", {})
-    if n.get("iron_mg", 0) >= 2.0:
-        score += 3
-    if n.get("folate_ug", 0) >= 50:
-        score += 2
-    if n.get("calcium_mg", 0) >= 80:
-        score += 2
+    if consider_nutrition:
+        n = recipe.get("nutrition_per_serving", {})
+        if n.get("iron_mg", 0) >= 2.0:
+            score += 3
+        if n.get("folate_ug", 0) >= 50:
+            score += 2
+        if n.get("calcium_mg", 0) >= 80:
+            score += 2
 
     return score
 
@@ -88,9 +90,16 @@ def suggest_recipes(
     pressure_count: int = 0,
     microwave_main_count: int = 0,
     microwave_side_count: int = 0,
+    consider_nutrition: bool = True,
+    time_limit_enabled: bool = True,
+    time_limit_min: int = 120,
+    allow_ingredient_overlap: bool = False,
 ) -> dict:
     """
     献立を自動提案する。
+
+    通常枠とレンジ枠はcookerフィルタで独立しているため、カウントは別々に設定する。
+    電気圧力鍋は並行調理のため調理時間チェックから除外される。
 
     Returns:
         {"main": [...], "side": [...], "soup": [...], "pressure": [...],
@@ -101,20 +110,23 @@ def suggest_recipes(
     # 特殊調理器具（通常プールから除外）
     SPECIAL_COOKERS = {"electric_pressure", "microwave"}
 
-    # microwave 枠は主菜・副菜の内数なので、通常枠から差し引く
+    # 通常枠とレンジ枠・圧力鍋枠はcookerフィルタで分離。カウントは独立。
     CATEGORY_MAP = [
-        ("main",           "主菜",   main_count - microwave_main_count, "normal"),
-        ("side",           "副菜",   side_count - microwave_side_count, "normal"),
-        ("soup",           "スープ", soup_count,                        "normal"),
-        ("pressure",       "主菜",   pressure_count,                    "electric_pressure"),
-        ("microwave_main", "主菜",   microwave_main_count,              "microwave"),
-        ("microwave_side", "副菜",   microwave_side_count,              "microwave"),
+        ("main",           "主菜",   main_count,           "normal"),
+        ("side",           "副菜",   side_count,           "normal"),
+        ("soup",           "スープ", soup_count,           "normal"),
+        ("pressure",       "主菜",   pressure_count,       "electric_pressure"),
+        ("microwave_main", "主菜",   microwave_main_count, "microwave"),
+        ("microwave_side", "副菜",   microwave_side_count, "microwave"),
     ]
 
     result: dict[str, list[dict]] = {
         "main": [], "side": [], "soup": [], "pressure": [],
         "microwave_main": [], "microwave_side": [],
     }
+
+    # 全カテゴリを横断して選定済みレシピを追跡（調理時間のグローバル計算用）
+    all_selected: list[dict] = []
 
     for cat_key, cat_jp, count, cooker_filter in CATEGORY_MAP:
         if count <= 0:
@@ -129,9 +141,21 @@ def suggest_recipes(
         if not pool:
             continue
 
-        # スコアリング（ランダムジッターで毎回異なる順序）
-        scored = [(r, _score_recipe(r, must_ingredients, prioritize_favorites) + rng.random() * 2) for r in pool]
-        scored.sort(key=lambda x: x[1], reverse=True)
+        # プールをシャッフルして毎回異なる選定順序にする
+        rng.shuffle(pool)
+
+        # スコアリング：マスト食材・お気に入り・栄養のいずれかが有効な場合のみ実施
+        use_scoring = bool(must_ingredients) or prioritize_favorites or consider_nutrition
+        if use_scoring:
+            scored = [
+                (r, _score_recipe(r, must_ingredients, prioritize_favorites, consider_nutrition)
+                 + rng.random() * 2)
+                for r in pool
+            ]
+            scored.sort(key=lambda x: x[1], reverse=True)
+        else:
+            # 完全ランダム（シャッフル済みプールをそのまま使用）
+            scored = [(r, 0.0) for r in pool]
 
         selected: list[dict] = []
 
@@ -141,24 +165,28 @@ def suggest_recipes(
             if len(selected) >= count:
                 break
             selected.append(r)
+            all_selected.append(r)
 
-        # Phase 2: 残枠を重複チェック・調理時間チェックしながら充填
+        # Phase 2: 残枠を制約チェックしながら充填
         already_ids = {r["id"] for r in selected}
         for r, _ in scored:
             if len(selected) >= count:
                 break
             if r["id"] in already_ids:
                 continue
-            # 通常主菜のみ合計調理時間チェック（電気圧力鍋は並行調理なので除外）
-            if cat_key == "main":
-                if _calc_total_cook_time(selected) + r.get("prep_time_min", 0) + r.get("cook_time_min", 0) > 120:
+            # 調理時間チェック（電気圧力鍋は並行調理なので除外）
+            if time_limit_enabled and cat_key not in ("pressure",):
+                r_time = r.get("prep_time_min", 0) + r.get("cook_time_min", 0)
+                if _calc_total_cook_time(all_selected) + r_time > time_limit_min:
                     continue
-            if _check_ingredient_overlap(selected, r, threshold=3):
+            # 食材重複チェック
+            if not allow_ingredient_overlap and _check_ingredient_overlap(selected, r, threshold=3):
                 continue
             selected.append(r)
+            all_selected.append(r)
             already_ids.add(r["id"])
 
-        # Phase 3: フォールバック（制約を緩和して残枠を埋める）
+        # Phase 3: フォールバック（制約を無視して残枠を必ず埋める）
         if len(selected) < count:
             already_ids = {r["id"] for r in selected}
             for r, _ in scored:
