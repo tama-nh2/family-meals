@@ -3719,5 +3719,790 @@
     },
     "tags": ["作り置き", "子供OK", "電子レンジ"],
     "favorite": false
+  },
+  {
+    "id": "recipe_073",
+    "name": "レンジで作るかぼちゃの煮物",
+    "category": "副菜",
+    "cooker": "microwave",
+    "servings": 3,
+    "batch_servings": 10,
+    "serving_size_adult_g": 80,
+    "serving_size_child_g": 40,
+    "prep_time_min": 10,
+    "cook_time_min": 8,
+    "storage_days": 4,
+    "ingredients": [
+      {"name": "かぼちゃ", "amount": 600, "unit": "g", "category": "野菜類"},
+      {"name": "砂糖", "amount": 2, "unit": "大さじ", "category": "調味料"},
+      {"name": "醤油", "amount": 1, "unit": "大さじ", "category": "調味料"},
+      {"name": "みりん", "amount": 1, "unit": "大さじ", "category": "調味料"},
+      {"name": "水", "amount": 100, "unit": "ml", "category": "調味料"}
+    ],
+    "steps": [
+      "かぼちゃは種とワタを取り除き、3cm角に切る。",
+      "耐熱容器にかぼちゃ・砂糖・醤油・みりん・水を入れてよく混ぜる。",
+      "ラップをして 600W で 6 分加熱し、一度混ぜてさらに 2 分加熱する。",
+      "粗熱が取れたら保存容器へ移す。"
+    ],
+    "nutrition_per_serving": {
+      "calories": 90,
+      "protein_g": 2,
+      "fat_g": 0.5,
+      "carbs_g": 20,
+      "salt_g": 0.4,
+      "iron_mg": 0.5,
+      "calcium_mg": 18,
+      "folate_ug": 50
+    },
+    "tags": ["作り置き", "子供OK", "電子レンジ", "和食"],
+    "favorite": false
+  },
+  {
+    "id": "recipe_074",
+    "name": "電子レンジほうれん草の胡麻和え",
+    "category": "副菜",
+    "cooker": "microwave",
+    "servings": 3,
+    "batch_servings": 10,
+    "serving_size_adult_g": 60,
+    "serving_size_child_g": 30,
+    "prep_time_min": 5,
+    "cook_time_min": 5,
+    "storage_days": 3,
+    "ingredients": [
+      {"name": "ほうれん草", "amount": 500, "unit": "g", "category": "野菜類"},
+      {"name": "白ごま", "amount": 20, "unit": "g", "category": "調味料"},
+      {"name": "醤油", "amount": 2, "unit": "大さじ", "category": "調味料"},
+      {"name": "砂糖", "amount": 1, "unit": "大さじ", "category": "調味料"},
+      {"name": "みりん", "amount": 1, "unit": "大さじ", "category": "調味料"}
+    ],
+    "steps": [
+      "ほうれん草は根元を切り落とし、4cm幅に切る。",
+      "耐熱容器に入れてラップをし、600W で 3 分加熱する。",
+      "水気をしっかり絞り、醤油・砂糖・みりん・白ごまで和える。",
+      "保存容器へ移す。"
+    ],
+    "nutrition_per_serving": {
+      "calories": 70,
+      "protein_g": 4,
+      "fat_g": 3,
+      "carbs_g": 7,
+      "salt_g": 0.6,
+      "iron_mg": 2.5,
+      "calcium_mg": 80,
+      "folate_ug": 120
+    },
+    "tags": ["作り置き", "子供OK", "電子レンジ", "和食"],
+    "favorite": false
+  },
+  {
+    "id": "recipe_075",
+    "name": "レンジで作るひじきの煮物",
+    "category": "副菜",
+    "cooker": "microwave",
+    "servings": 3,
+    "batch_servings": 10,
+    "serving_size_adult_g": 60,
+    "serving_size_child_g": 30,
+    "prep_time_min": 20,
+    "cook_time_min": 8,
+    "storage_days": 4,
+    "ingredients": [
+      {"name": "ひじき（乾燥）", "amount": 20, "unit": "g", "category": "海藻類"},
+      {"name": "油揚げ", "amount": 60, "unit": "g", "category": "大豆製品"},
+      {"name": "人参", "amount": 80, "unit": "g", "category": "野菜類"},
+      {"name": "醤油", "amount": 3, "unit": "大さじ", "category": "調味料"},
+      {"name": "みりん", "amount": 2, "unit": "大さじ", "category": "調味料"},
+      {"name": "砂糖", "amount": 1, "unit": "大さじ", "category": "調味料"},
+      {"name": "ごま油", "amount": 1, "unit": "大さじ", "category": "調味料"}
+    ],
+    "steps": [
+      "ひじきは水に 15 分浸けて戻し、水気を切る。",
+      "油揚げは熱湯をかけて油抜きし、細切りにする。人参は千切りにする。",
+      "耐熱容器にひじき・油揚げ・人参・調味料を入れて混ぜる。",
+      "ラップをして 600W で 5 分加熱し、混ぜてさらに 3 分加熱する。",
+      "ごま油を回しかけて混ぜ、保存容器へ移す。"
+    ],
+    "nutrition_per_serving": {
+      "calories": 85,
+      "protein_g": 3,
+      "fat_g": 2.5,
+      "carbs_g": 12,
+      "salt_g": 0.8,
+      "iron_mg": 2.8,
+      "calcium_mg": 60,
+      "folate_ug": 30
+    },
+    "tags": ["作り置き", "子供OK", "電子レンジ", "和食"],
+    "favorite": false
+  },
+  {
+    "id": "recipe_076",
+    "name": "電子レンジキャロットラペ",
+    "category": "副菜",
+    "cooker": "microwave",
+    "servings": 3,
+    "batch_servings": 10,
+    "serving_size_adult_g": 60,
+    "serving_size_child_g": 30,
+    "prep_time_min": 10,
+    "cook_time_min": 3,
+    "storage_days": 5,
+    "ingredients": [
+      {"name": "人参", "amount": 400, "unit": "g", "category": "野菜類"},
+      {"name": "オリーブオイル", "amount": 2, "unit": "大さじ", "category": "調味料"},
+      {"name": "白ワインビネガー", "amount": 2, "unit": "大さじ", "category": "調味料"},
+      {"name": "はちみつ", "amount": 1, "unit": "大さじ", "category": "調味料"},
+      {"name": "粒マスタード", "amount": 1, "unit": "大さじ", "category": "調味料"},
+      {"name": "塩", "amount": 1, "unit": "少々", "category": "調味料"}
+    ],
+    "steps": [
+      "人参は千切りまたはスライサーで細切りにする。",
+      "耐熱容器に入れてラップをし、600W で 2 分加熱して粗熱を取る。",
+      "オリーブオイル・白ワインビネガー・はちみつ・粒マスタード・塩を合わせて人参と和える。",
+      "冷蔵庫で 30 分以上なじませて保存容器へ移す。"
+    ],
+    "nutrition_per_serving": {
+      "calories": 80,
+      "protein_g": 1,
+      "fat_g": 4,
+      "carbs_g": 10,
+      "salt_g": 0.3,
+      "iron_mg": 0.4,
+      "calcium_mg": 25,
+      "folate_ug": 16
+    },
+    "tags": ["作り置き", "子供OK", "電子レンジ", "洋食"],
+    "favorite": false
+  },
+  {
+    "id": "recipe_077",
+    "name": "レンジで作るブロッコリーのマヨ和え",
+    "category": "副菜",
+    "cooker": "microwave",
+    "servings": 3,
+    "batch_servings": 10,
+    "serving_size_adult_g": 80,
+    "serving_size_child_g": 40,
+    "prep_time_min": 5,
+    "cook_time_min": 5,
+    "storage_days": 3,
+    "ingredients": [
+      {"name": "ブロッコリー", "amount": 500, "unit": "g", "category": "野菜類"},
+      {"name": "マヨネーズ", "amount": 3, "unit": "大さじ", "category": "調味料"},
+      {"name": "醤油", "amount": 1, "unit": "大さじ", "category": "調味料"},
+      {"name": "白ごま", "amount": 10, "unit": "g", "category": "調味料"}
+    ],
+    "steps": [
+      "ブロッコリーは小房に分け、茎は薄切りにする。",
+      "耐熱容器に入れて水を少量ふりかけ、ラップをして 600W で 4 分加熱する。",
+      "水気を切り、粗熱が取れたらマヨネーズ・醤油・白ごまで和える。",
+      "保存容器へ移す。"
+    ],
+    "nutrition_per_serving": {
+      "calories": 100,
+      "protein_g": 5,
+      "fat_g": 7,
+      "carbs_g": 6,
+      "salt_g": 0.6,
+      "iron_mg": 0.8,
+      "calcium_mg": 55,
+      "folate_ug": 110
+    },
+    "tags": ["作り置き", "子供OK", "電子レンジ", "洋食"],
+    "favorite": false
+  },
+  {
+    "id": "recipe_078",
+    "name": "電子レンジ切り干し大根の煮物",
+    "category": "副菜",
+    "cooker": "microwave",
+    "servings": 3,
+    "batch_servings": 10,
+    "serving_size_adult_g": 60,
+    "serving_size_child_g": 30,
+    "prep_time_min": 20,
+    "cook_time_min": 10,
+    "storage_days": 5,
+    "ingredients": [
+      {"name": "切り干し大根（乾燥）", "amount": 50, "unit": "g", "category": "乾物"},
+      {"name": "人参", "amount": 60, "unit": "g", "category": "野菜類"},
+      {"name": "油揚げ", "amount": 30, "unit": "g", "category": "大豆製品"},
+      {"name": "醤油", "amount": 3, "unit": "大さじ", "category": "調味料"},
+      {"name": "みりん", "amount": 2, "unit": "大さじ", "category": "調味料"},
+      {"name": "砂糖", "amount": 1, "unit": "大さじ", "category": "調味料"},
+      {"name": "だし汁", "amount": 200, "unit": "ml", "category": "調味料"}
+    ],
+    "steps": [
+      "切り干し大根は水に 15 分浸けて戻し、水気を切って食べやすい長さに切る。",
+      "人参は千切り、油揚げは細切りにする。",
+      "耐熱容器に全材料と調味料を入れて混ぜる。",
+      "ラップをして 600W で 6 分加熱し、混ぜてさらに 4 分加熱する。",
+      "粗熱が取れたら保存容器へ移す。"
+    ],
+    "nutrition_per_serving": {
+      "calories": 75,
+      "protein_g": 3,
+      "fat_g": 1.5,
+      "carbs_g": 13,
+      "salt_g": 0.9,
+      "iron_mg": 1.5,
+      "calcium_mg": 120,
+      "folate_ug": 25
+    },
+    "tags": ["作り置き", "子供OK", "電子レンジ", "和食"],
+    "favorite": false
+  },
+  {
+    "id": "recipe_079",
+    "name": "レンジで作るなすの中華風",
+    "category": "副菜",
+    "cooker": "microwave",
+    "servings": 3,
+    "batch_servings": 10,
+    "serving_size_adult_g": 80,
+    "serving_size_child_g": 40,
+    "prep_time_min": 10,
+    "cook_time_min": 6,
+    "storage_days": 3,
+    "ingredients": [
+      {"name": "なす", "amount": 500, "unit": "g", "category": "野菜類"},
+      {"name": "ごま油", "amount": 2, "unit": "大さじ", "category": "調味料"},
+      {"name": "醤油", "amount": 2, "unit": "大さじ", "category": "調味料"},
+      {"name": "みりん", "amount": 1, "unit": "大さじ", "category": "調味料"},
+      {"name": "にんにく（すりおろし）", "amount": 5, "unit": "g", "category": "調味料"},
+      {"name": "白ごま", "amount": 10, "unit": "g", "category": "調味料"}
+    ],
+    "steps": [
+      "なすは乱切りにして水にさらし、水気を切る。",
+      "耐熱容器になすを入れてラップをし、600W で 4 分加熱する。",
+      "水気を切り、ごま油・醤油・みりん・にんにくを合わせたタレで和える。",
+      "白ごまをふって保存容器へ移す。"
+    ],
+    "nutrition_per_serving": {
+      "calories": 75,
+      "protein_g": 2,
+      "fat_g": 4,
+      "carbs_g": 8,
+      "salt_g": 0.8,
+      "iron_mg": 0.3,
+      "calcium_mg": 14,
+      "folate_ug": 36
+    },
+    "tags": ["作り置き", "子供OK", "電子レンジ", "中華"],
+    "favorite": false
+  },
+  {
+    "id": "recipe_080",
+    "name": "電子レンジかぼちゃのミルク煮",
+    "category": "副菜",
+    "cooker": "microwave",
+    "servings": 3,
+    "batch_servings": 10,
+    "serving_size_adult_g": 80,
+    "serving_size_child_g": 40,
+    "prep_time_min": 10,
+    "cook_time_min": 8,
+    "storage_days": 3,
+    "ingredients": [
+      {"name": "かぼちゃ", "amount": 500, "unit": "g", "category": "野菜類"},
+      {"name": "牛乳", "amount": 200, "unit": "ml", "category": "乳製品"},
+      {"name": "バター", "amount": 20, "unit": "g", "category": "乳製品"},
+      {"name": "砂糖", "amount": 1, "unit": "大さじ", "category": "調味料"},
+      {"name": "塩", "amount": 1, "unit": "少々", "category": "調味料"}
+    ],
+    "steps": [
+      "かぼちゃは種とワタを取り除き、2cm角に切る。",
+      "耐熱容器にかぼちゃ・牛乳・砂糖・塩を入れてラップをし、600W で 5 分加熱する。",
+      "一度混ぜてバターを加え、さらに 3 分加熱してバターを溶かしながら混ぜる。",
+      "粗熱が取れたら保存容器へ移す。"
+    ],
+    "nutrition_per_serving": {
+      "calories": 105,
+      "protein_g": 3,
+      "fat_g": 4,
+      "carbs_g": 17,
+      "salt_g": 0.3,
+      "iron_mg": 0.5,
+      "calcium_mg": 70,
+      "folate_ug": 45
+    },
+    "tags": ["作り置き", "子供OK", "電子レンジ", "洋食"],
+    "favorite": false
+  },
+  {
+    "id": "recipe_081",
+    "name": "レンジで作る小松菜の白和え",
+    "category": "副菜",
+    "cooker": "microwave",
+    "servings": 3,
+    "batch_servings": 10,
+    "serving_size_adult_g": 70,
+    "serving_size_child_g": 35,
+    "prep_time_min": 10,
+    "cook_time_min": 4,
+    "storage_days": 3,
+    "ingredients": [
+      {"name": "小松菜", "amount": 400, "unit": "g", "category": "野菜類"},
+      {"name": "木綿豆腐", "amount": 300, "unit": "g", "category": "大豆製品"},
+      {"name": "白ごま", "amount": 15, "unit": "g", "category": "調味料"},
+      {"name": "砂糖", "amount": 2, "unit": "大さじ", "category": "調味料"},
+      {"name": "醤油", "amount": 1, "unit": "大さじ", "category": "調味料"},
+      {"name": "塩", "amount": 1, "unit": "少々", "category": "調味料"}
+    ],
+    "steps": [
+      "豆腐はキッチンペーパーで包んで重しを乗せ、10 分水切りする。",
+      "小松菜は 4cm幅に切り、耐熱容器に入れてラップをし 600W で 3 分加熱して水気を絞る。",
+      "豆腐を崩し、白ごま・砂糖・醤油・塩を加えてよく混ぜる。",
+      "小松菜を加えて和え、保存容器へ移す。"
+    ],
+    "nutrition_per_serving": {
+      "calories": 90,
+      "protein_g": 7,
+      "fat_g": 4,
+      "carbs_g": 8,
+      "salt_g": 0.5,
+      "iron_mg": 2.5,
+      "calcium_mg": 200,
+      "folate_ug": 90
+    },
+    "tags": ["作り置き", "子供OK", "電子レンジ", "和食"],
+    "favorite": false
+  },
+  {
+    "id": "recipe_082",
+    "name": "電子レンジきのこのマリネ",
+    "category": "副菜",
+    "cooker": "microwave",
+    "servings": 3,
+    "batch_servings": 10,
+    "serving_size_adult_g": 70,
+    "serving_size_child_g": 35,
+    "prep_time_min": 10,
+    "cook_time_min": 5,
+    "storage_days": 5,
+    "ingredients": [
+      {"name": "しめじ", "amount": 200, "unit": "g", "category": "きのこ類"},
+      {"name": "えのき", "amount": 150, "unit": "g", "category": "きのこ類"},
+      {"name": "舞茸", "amount": 100, "unit": "g", "category": "きのこ類"},
+      {"name": "オリーブオイル", "amount": 2, "unit": "大さじ", "category": "調味料"},
+      {"name": "白ワインビネガー", "amount": 2, "unit": "大さじ", "category": "調味料"},
+      {"name": "醤油", "amount": 1, "unit": "大さじ", "category": "調味料"},
+      {"name": "にんにく（すりおろし）", "amount": 5, "unit": "g", "category": "調味料"},
+      {"name": "塩", "amount": 1, "unit": "少々", "category": "調味料"}
+    ],
+    "steps": [
+      "しめじ・舞茸は石突きを取ってほぐし、えのきは根元を切って半分の長さにする。",
+      "耐熱容器に全きのこを入れてラップをし、600W で 4 分加熱する。",
+      "水気を軽く切り、オリーブオイル・白ワインビネガー・醤油・にんにく・塩を合わせたドレッシングで和える。",
+      "冷まして保存容器へ移し、冷蔵庫でなじませる。"
+    ],
+    "nutrition_per_serving": {
+      "calories": 60,
+      "protein_g": 2,
+      "fat_g": 4,
+      "carbs_g": 5,
+      "salt_g": 0.5,
+      "iron_mg": 0.4,
+      "calcium_mg": 8,
+      "folate_ug": 35
+    },
+    "tags": ["作り置き", "子供OK", "電子レンジ", "洋食"],
+    "favorite": false
+  },
+  {
+    "id": "recipe_083",
+    "name": "ほうれん草のベーコン炒め",
+    "category": "副菜",
+    "cooker": "normal",
+    "servings": 3,
+    "batch_servings": 10,
+    "serving_size_adult_g": 70,
+    "serving_size_child_g": 35,
+    "prep_time_min": 5,
+    "cook_time_min": 10,
+    "storage_days": 3,
+    "ingredients": [
+      {"name": "ほうれん草", "amount": 500, "unit": "g", "category": "野菜類"},
+      {"name": "ベーコン", "amount": 80, "unit": "g", "category": "肉類"},
+      {"name": "サラダ油", "amount": 1, "unit": "大さじ", "category": "調味料"},
+      {"name": "醤油", "amount": 1, "unit": "大さじ", "category": "調味料"},
+      {"name": "塩", "amount": 1, "unit": "少々", "category": "調味料"},
+      {"name": "こしょう", "amount": 1, "unit": "少々", "category": "調味料"}
+    ],
+    "steps": [
+      "ほうれん草は根元を切り落とし、4cm幅に切る。ベーコンは 1cm幅に切る。",
+      "フライパンに油を熱し、ベーコンを中火で炒める。",
+      "ほうれん草を加えて強火でしんなりするまで炒め、醤油・塩・こしょうで味を整える。",
+      "粗熱が取れたら保存容器へ移す。"
+    ],
+    "nutrition_per_serving": {
+      "calories": 90,
+      "protein_g": 6,
+      "fat_g": 5,
+      "carbs_g": 5,
+      "salt_g": 0.7,
+      "iron_mg": 2.8,
+      "calcium_mg": 70,
+      "folate_ug": 130
+    },
+    "tags": ["作り置き", "子供OK", "洋食"],
+    "favorite": false
+  },
+  {
+    "id": "recipe_084",
+    "name": "根菜きんぴら",
+    "category": "副菜",
+    "cooker": "normal",
+    "servings": 3,
+    "batch_servings": 10,
+    "serving_size_adult_g": 60,
+    "serving_size_child_g": 30,
+    "prep_time_min": 15,
+    "cook_time_min": 15,
+    "storage_days": 5,
+    "ingredients": [
+      {"name": "ごぼう", "amount": 200, "unit": "g", "category": "野菜類"},
+      {"name": "人参", "amount": 150, "unit": "g", "category": "野菜類"},
+      {"name": "れんこん", "amount": 150, "unit": "g", "category": "野菜類"},
+      {"name": "ごま油", "amount": 2, "unit": "大さじ", "category": "調味料"},
+      {"name": "醤油", "amount": 3, "unit": "大さじ", "category": "調味料"},
+      {"name": "みりん", "amount": 2, "unit": "大さじ", "category": "調味料"},
+      {"name": "砂糖", "amount": 1, "unit": "大さじ", "category": "調味料"},
+      {"name": "白ごま", "amount": 15, "unit": "g", "category": "調味料"}
+    ],
+    "steps": [
+      "ごぼうは斜め薄切り、人参は千切り、れんこんは薄切りにする。それぞれ水にさらしてアクを抜く。",
+      "フライパンにごま油を熱し、ごぼう・れんこんを中火で 5 分炒める。",
+      "人参を加えてさらに 3 分炒め、醤油・みりん・砂糖を加えて汁気が飛ぶまで炒める。",
+      "白ごまをふって保存容器へ移す。"
+    ],
+    "nutrition_per_serving": {
+      "calories": 90,
+      "protein_g": 2,
+      "fat_g": 3.5,
+      "carbs_g": 14,
+      "salt_g": 0.8,
+      "iron_mg": 0.7,
+      "calcium_mg": 40,
+      "folate_ug": 28
+    },
+    "tags": ["作り置き", "子供OK", "和食", "定番"],
+    "favorite": false
+  },
+  {
+    "id": "recipe_085",
+    "name": "ひじきと大豆の煮物",
+    "category": "副菜",
+    "cooker": "normal",
+    "servings": 3,
+    "batch_servings": 10,
+    "serving_size_adult_g": 60,
+    "serving_size_child_g": 30,
+    "prep_time_min": 20,
+    "cook_time_min": 20,
+    "storage_days": 5,
+    "ingredients": [
+      {"name": "ひじき（乾燥）", "amount": 30, "unit": "g", "category": "海藻類"},
+      {"name": "大豆（水煮）", "amount": 200, "unit": "g", "category": "大豆製品"},
+      {"name": "人参", "amount": 60, "unit": "g", "category": "野菜類"},
+      {"name": "醤油", "amount": 3, "unit": "大さじ", "category": "調味料"},
+      {"name": "みりん", "amount": 2, "unit": "大さじ", "category": "調味料"},
+      {"name": "砂糖", "amount": 1, "unit": "大さじ", "category": "調味料"},
+      {"name": "ごま油", "amount": 1, "unit": "大さじ", "category": "調味料"}
+    ],
+    "steps": [
+      "ひじきは水に 15 分浸けて戻し、水気を切る。人参は千切りにする。",
+      "鍋にごま油を熱し、人参を中火で 2 分炒める。",
+      "ひじき・大豆を加えて炒め合わせ、醤油・みりん・砂糖と水 150ml を加える。",
+      "中火で汁気がなくなるまで 15 分ほど煮る。保存容器へ移す。"
+    ],
+    "nutrition_per_serving": {
+      "calories": 100,
+      "protein_g": 6,
+      "fat_g": 2.5,
+      "carbs_g": 13,
+      "salt_g": 0.8,
+      "iron_mg": 3.5,
+      "calcium_mg": 70,
+      "folate_ug": 80
+    },
+    "tags": ["作り置き", "子供OK", "和食", "定番"],
+    "favorite": false
+  },
+  {
+    "id": "recipe_086",
+    "name": "ブロッコリーとチーズのグラタン風",
+    "category": "副菜",
+    "cooker": "normal",
+    "servings": 3,
+    "batch_servings": 10,
+    "serving_size_adult_g": 90,
+    "serving_size_child_g": 45,
+    "prep_time_min": 10,
+    "cook_time_min": 20,
+    "storage_days": 3,
+    "ingredients": [
+      {"name": "ブロッコリー", "amount": 500, "unit": "g", "category": "野菜類"},
+      {"name": "ピザ用チーズ", "amount": 100, "unit": "g", "category": "乳製品"},
+      {"name": "牛乳", "amount": 200, "unit": "ml", "category": "乳製品"},
+      {"name": "薄力粉", "amount": 2, "unit": "大さじ", "category": "穀物類"},
+      {"name": "バター", "amount": 20, "unit": "g", "category": "乳製品"},
+      {"name": "塩", "amount": 1, "unit": "少々", "category": "調味料"},
+      {"name": "こしょう", "amount": 1, "unit": "少々", "category": "調味料"}
+    ],
+    "steps": [
+      "ブロッコリーは小房に分け、塩茹でして水気を切る。",
+      "鍋にバターを溶かし、薄力粉を弱火で炒める。牛乳を少しずつ加えてホワイトソースを作り、塩・こしょうで味を整える。",
+      "耐熱容器にブロッコリーを並べてホワイトソースをかけ、チーズをのせる。",
+      "オーブントースターで 10 分焼いて焼き色をつける。粗熱を取って保存容器へ移す。"
+    ],
+    "nutrition_per_serving": {
+      "calories": 130,
+      "protein_g": 9,
+      "fat_g": 8,
+      "carbs_g": 9,
+      "salt_g": 0.6,
+      "iron_mg": 0.9,
+      "calcium_mg": 200,
+      "folate_ug": 100
+    },
+    "tags": ["作り置き", "子供OK", "洋食"],
+    "favorite": false
+  },
+  {
+    "id": "recipe_087",
+    "name": "小松菜と豆腐の炒め煮",
+    "category": "副菜",
+    "cooker": "normal",
+    "servings": 3,
+    "batch_servings": 10,
+    "serving_size_adult_g": 80,
+    "serving_size_child_g": 40,
+    "prep_time_min": 10,
+    "cook_time_min": 10,
+    "storage_days": 3,
+    "ingredients": [
+      {"name": "小松菜", "amount": 400, "unit": "g", "category": "野菜類"},
+      {"name": "木綿豆腐", "amount": 400, "unit": "g", "category": "大豆製品"},
+      {"name": "ごま油", "amount": 2, "unit": "大さじ", "category": "調味料"},
+      {"name": "醤油", "amount": 2, "unit": "大さじ", "category": "調味料"},
+      {"name": "みりん", "amount": 1, "unit": "大さじ", "category": "調味料"},
+      {"name": "砂糖", "amount": 1, "unit": "大さじ", "category": "調味料"}
+    ],
+    "steps": [
+      "豆腐はキッチンペーパーで水気を取り、手で崩す。小松菜は 4cm幅に切る。",
+      "フライパンにごま油を熱し、豆腐を中火でそぼろ状になるまで炒める。",
+      "小松菜を加えてしんなりするまで炒め、醤油・みりん・砂糖を加えて汁気が飛ぶまで炒める。",
+      "保存容器へ移す。"
+    ],
+    "nutrition_per_serving": {
+      "calories": 95,
+      "protein_g": 8,
+      "fat_g": 5,
+      "carbs_g": 7,
+      "salt_g": 0.7,
+      "iron_mg": 3.0,
+      "calcium_mg": 230,
+      "folate_ug": 100
+    },
+    "tags": ["作り置き", "子供OK", "和食"],
+    "favorite": false
+  },
+  {
+    "id": "recipe_088",
+    "name": "じゃがいものバター醤油炒め",
+    "category": "副菜",
+    "cooker": "normal",
+    "servings": 3,
+    "batch_servings": 10,
+    "serving_size_adult_g": 80,
+    "serving_size_child_g": 40,
+    "prep_time_min": 10,
+    "cook_time_min": 15,
+    "storage_days": 3,
+    "ingredients": [
+      {"name": "じゃがいも", "amount": 500, "unit": "g", "category": "野菜類"},
+      {"name": "バター", "amount": 20, "unit": "g", "category": "乳製品"},
+      {"name": "醤油", "amount": 2, "unit": "大さじ", "category": "調味料"},
+      {"name": "みりん", "amount": 1, "unit": "大さじ", "category": "調味料"},
+      {"name": "砂糖", "amount": 1, "unit": "少々", "category": "調味料"},
+      {"name": "パセリ（乾燥）", "amount": 5, "unit": "g", "category": "調味料"}
+    ],
+    "steps": [
+      "じゃがいもは皮をむいて 1.5cm角に切り、水にさらしてアクを取る。",
+      "フライパンに水気を切ったじゃがいもを入れ、水を 100ml 加えて蓋をして中火で 8 分蒸し炒めにする。",
+      "水気が飛んだらバターを加え、醤油・みりん・砂糖を加えて絡める。",
+      "パセリをふって保存容器へ移す。"
+    ],
+    "nutrition_per_serving": {
+      "calories": 100,
+      "protein_g": 2,
+      "fat_g": 3,
+      "carbs_g": 17,
+      "salt_g": 0.7,
+      "iron_mg": 0.4,
+      "calcium_mg": 8,
+      "folate_ug": 20
+    },
+    "tags": ["作り置き", "子供OK", "洋食"],
+    "favorite": false
+  },
+  {
+    "id": "recipe_089",
+    "name": "中華風きゅうりと春雨の和え物",
+    "category": "副菜",
+    "cooker": "normal",
+    "servings": 3,
+    "batch_servings": 10,
+    "serving_size_adult_g": 70,
+    "serving_size_child_g": 35,
+    "prep_time_min": 15,
+    "cook_time_min": 5,
+    "storage_days": 3,
+    "ingredients": [
+      {"name": "きゅうり", "amount": 300, "unit": "g", "category": "野菜類"},
+      {"name": "春雨", "amount": 50, "unit": "g", "category": "穀物類"},
+      {"name": "ごま油", "amount": 2, "unit": "大さじ", "category": "調味料"},
+      {"name": "醤油", "amount": 2, "unit": "大さじ", "category": "調味料"},
+      {"name": "酢", "amount": 1, "unit": "大さじ", "category": "調味料"},
+      {"name": "砂糖", "amount": 1, "unit": "大さじ", "category": "調味料"},
+      {"name": "白ごま", "amount": 15, "unit": "g", "category": "調味料"}
+    ],
+    "steps": [
+      "春雨は熱湯で 5 分茹でて水気を切り、食べやすい長さに切る。",
+      "きゅうりは斜め薄切りにして塩をふり、しんなりしたら水気を絞る。",
+      "ごま油・醤油・酢・砂糖を合わせてドレッシングを作る。",
+      "春雨・きゅうりをドレッシングで和え、白ごまをふって保存容器へ移す。"
+    ],
+    "nutrition_per_serving": {
+      "calories": 85,
+      "protein_g": 2,
+      "fat_g": 4,
+      "carbs_g": 12,
+      "salt_g": 0.8,
+      "iron_mg": 0.3,
+      "calcium_mg": 20,
+      "folate_ug": 18
+    },
+    "tags": ["作り置き", "子供OK", "中華"],
+    "favorite": false
+  },
+  {
+    "id": "recipe_090",
+    "name": "ほうれん草とにんじんのナムル",
+    "category": "副菜",
+    "cooker": "normal",
+    "servings": 3,
+    "batch_servings": 10,
+    "serving_size_adult_g": 60,
+    "serving_size_child_g": 30,
+    "prep_time_min": 10,
+    "cook_time_min": 5,
+    "storage_days": 3,
+    "ingredients": [
+      {"name": "ほうれん草", "amount": 400, "unit": "g", "category": "野菜類"},
+      {"name": "人参", "amount": 150, "unit": "g", "category": "野菜類"},
+      {"name": "ごま油", "amount": 2, "unit": "大さじ", "category": "調味料"},
+      {"name": "醤油", "amount": 1, "unit": "大さじ", "category": "調味料"},
+      {"name": "塩", "amount": 1, "unit": "少々", "category": "調味料"},
+      {"name": "白ごま", "amount": 20, "unit": "g", "category": "調味料"}
+    ],
+    "steps": [
+      "人参は千切りにして塩茹でし、ほうれん草も続けて茹でる（計 3 分）。",
+      "それぞれ水気をしっかり絞り、4cm幅に切る。",
+      "ごま油・醤油・塩を合わせたタレで人参とほうれん草を別々に和える。",
+      "盛り合わせて白ごまをふり、保存容器へ移す。"
+    ],
+    "nutrition_per_serving": {
+      "calories": 80,
+      "protein_g": 4,
+      "fat_g": 5,
+      "carbs_g": 7,
+      "salt_g": 0.5,
+      "iron_mg": 2.5,
+      "calcium_mg": 75,
+      "folate_ug": 120
+    },
+    "tags": ["作り置き", "子供OK", "中華"],
+    "favorite": false
+  },
+  {
+    "id": "recipe_091",
+    "name": "切り干し大根のサラダ",
+    "category": "副菜",
+    "cooker": "normal",
+    "servings": 3,
+    "batch_servings": 10,
+    "serving_size_adult_g": 60,
+    "serving_size_child_g": 30,
+    "prep_time_min": 20,
+    "cook_time_min": 5,
+    "storage_days": 3,
+    "ingredients": [
+      {"name": "切り干し大根（乾燥）", "amount": 40, "unit": "g", "category": "乾物"},
+      {"name": "きゅうり", "amount": 200, "unit": "g", "category": "野菜類"},
+      {"name": "人参", "amount": 60, "unit": "g", "category": "野菜類"},
+      {"name": "ツナ缶（水煮）", "amount": 80, "unit": "g", "category": "魚介類"},
+      {"name": "マヨネーズ", "amount": 3, "unit": "大さじ", "category": "調味料"},
+      {"name": "醤油", "amount": 1, "unit": "大さじ", "category": "調味料"},
+      {"name": "酢", "amount": 1, "unit": "大さじ", "category": "調味料"}
+    ],
+    "steps": [
+      "切り干し大根は水に 15 分浸けて戻し、水気を絞って食べやすい長さに切る。",
+      "きゅうりは千切り、人参は千切りにして塩もみして水気を絞る。",
+      "ツナ缶は水気を切る。",
+      "全材料をマヨネーズ・醤油・酢で和えて保存容器へ移す。"
+    ],
+    "nutrition_per_serving": {
+      "calories": 90,
+      "protein_g": 5,
+      "fat_g": 5,
+      "carbs_g": 9,
+      "salt_g": 0.7,
+      "iron_mg": 1.2,
+      "calcium_mg": 100,
+      "folate_ug": 20
+    },
+    "tags": ["作り置き", "子供OK", "和食"],
+    "favorite": false
+  },
+  {
+    "id": "recipe_092",
+    "name": "かぼちゃのきな粉和え",
+    "category": "副菜",
+    "cooker": "normal",
+    "servings": 3,
+    "batch_servings": 10,
+    "serving_size_adult_g": 80,
+    "serving_size_child_g": 40,
+    "prep_time_min": 10,
+    "cook_time_min": 15,
+    "storage_days": 3,
+    "ingredients": [
+      {"name": "かぼちゃ", "amount": 500, "unit": "g", "category": "野菜類"},
+      {"name": "きな粉", "amount": 30, "unit": "g", "category": "大豆製品"},
+      {"name": "砂糖", "amount": 2, "unit": "大さじ", "category": "調味料"},
+      {"name": "塩", "amount": 1, "unit": "少々", "category": "調味料"}
+    ],
+    "steps": [
+      "かぼちゃは種とワタを取り除き、3cm角に切る。",
+      "鍋に水 200ml とかぼちゃを入れ、蓋をして中火で 12 分蒸し煮にする。",
+      "竹串が通ったら水気を飛ばし、粗熱を取る。",
+      "きな粉・砂糖・塩を合わせ、かぼちゃに和えて保存容器へ移す。"
+    ],
+    "nutrition_per_serving": {
+      "calories": 95,
+      "protein_g": 4,
+      "fat_g": 2,
+      "carbs_g": 18,
+      "salt_g": 0.2,
+      "iron_mg": 0.8,
+      "calcium_mg": 35,
+      "folate_ug": 48
+    },
+    "tags": ["作り置き", "子供OK", "和食"],
+    "favorite": false
   }
 ]
