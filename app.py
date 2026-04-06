@@ -186,13 +186,32 @@ def render_recipe_slots(category_key: str, count: int, show_fav_button: bool = T
                 star = "★" if recipe.get("favorite") else "☆"
                 col1, col_star, col2, col3 = st.columns([4, 1, 1, 1])
                 with col1:
-                    st.markdown(
-                        f"<div class='{card_class}'>"
-                        f"<div class='recipe-card-name'>{cfg['emoji']} {recipe['name']}</div>"
-                        f"<div class='recipe-card-meta'>⏱ {recipe['prep_time_min'] + recipe['cook_time_min']}分 &nbsp;|&nbsp; 🗓 {recipe['storage_days']}日保存</div>"
-                        f"</div>",
-                        unsafe_allow_html=True,
-                    )
+                    total = recipe['prep_time_min'] + recipe['cook_time_min']
+                    expander_label = f"{cfg['emoji']} {recipe['name']}　⏱{total}分 | 🗓{recipe['storage_days']}日"
+                    with st.expander(expander_label, expanded=False):
+                        servings = recipe.get("servings", 3)
+                        st.markdown(f"**材料（{servings}人前）**")
+                        for ing in recipe.get("ingredients", []):
+                            amount = ing.get("amount", "")
+                            unit = ing.get("unit", "")
+                            st.markdown(f"- {ing['name']}: {amount}{unit}")
+                        steps = recipe.get("steps", [])
+                        if steps:
+                            st.markdown("**手順**")
+                            for idx, step in enumerate(steps, 1):
+                                st.markdown(f"{idx}. {step}")
+                        st.markdown(f"**保存:** 冷蔵 {recipe['storage_days']}日")
+                        nut = recipe.get("nutrition_per_serving", {})
+                        if nut:
+                            st.markdown("**栄養成分（1食あたり）**")
+                            st.markdown(
+                                f"カロリー {nut.get('calories', '—')} kcal　"
+                                f"タンパク質 {nut.get('protein_g', '—')} g　"
+                                f"鉄 {nut.get('iron_mg', '—')} mg　"
+                                f"Ca {nut.get('calcium_mg', '—')} mg　"
+                                f"葉酸 {nut.get('folate_ug', '—')} μg　"
+                                f"塩分 {nut.get('salt_g', '—')} g"
+                            )
                 with col_star:
                     if show_fav_button and st.button(star, key=f"plan_fav_{category_key}_{i}", help="お気に入り"):
                         do_toggle_favorite(recipe["id"])
